@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.printshopmail.com/support/xml/schemas/win/version-7_0_0/printshopmail7.xsd">
+	<info>
+		<user_name>ccino</user_name>
+		<date_time>2015-12-15T16:45:44</date_time>
+		<app_version>版本 7.0  (内部版本 59)</app_version>
+		<published>no</published>
+	</info>
+	<printer>
+		<printer_name>Kyocera Mita KM-2050 KX</printer_name>
+		<server_name>192.168.36.240</server_name>
+	</printer>
+	<operator_instructions></operator_instructions>
+	<preferences>
+		<program>
+			<default_tabstop_interval>36</default_tabstop_interval>
+			<markers begin="@" end="@"/>
+			<items_without_database>25</items_without_database>
+		</program>
+		<print_job>
+			<collate>yes</collate>
+			<use_split_job>no</use_split_job>
+			<split_job_size>1000</split_job_size>
+			<split_by>0</split_by>
+			<forms>
+				<store_on_disk>yes</store_on_disk>
+				<use_custom_cache_size>no</use_custom_cache_size>
+				<cache_size>4096</cache_size>
+				<use_opi>0</use_opi>
+			</forms>
+			<master>
+				<freeform2_master_name>Untitled</freeform2_master_name>
+				<print_mode>3</print_mode>
+			</master>
+			<ppml>
+				<environment>psmail\Untitled</environment>
+				<send_images>0</send_images>
+				<zip>yes</zip>
+				<embed_images_in_pdf>yes</embed_images_in_pdf>
+			</ppml>
+			<vipp>
+				<project_folder>projects\psmail</project_folder>
+				<do_not_spool_images>0</do_not_spool_images>
+			</vipp>
+			<vps>
+				<generate_booklets>yes</generate_booklets>
+				<use_apr>0</use_apr>
+			</vps>
+			<margins option="0" left="0" top="0" right="0" bottom="0"/>
+			<technology>0</technology>
+		</print_job>
+		<repetition>
+			<repeat_hor>6</repeat_hor>
+			<repeat_ver>2</repeat_ver>
+			<print_priority>4</print_priority>
+			<print_priority>0</print_priority>
+			<print_priority>2</print_priority>
+			<spacing_between_layouts x="8.50394" y="8.50394"/>
+			<duplex_print>0</duplex_print>
+		</repetition>
+		<imposition>
+			<bleed>
+				<mode>0</mode>
+				<size>40</size>
+			</bleed>
+			<cropmarks>
+				<mode>1</mode>
+				<size>6</size>
+				<double_sided>no</double_sided><color colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></color>
+			</cropmarks>
+			<folding_lines>
+				<size>40</size>
+			</folding_lines>
+		</imposition><colormanagement intent_generic="relative" colormanage="no"><colorspace id="RGB"><profile source="iccfile"><file name="srgb color space profile.icm" description="sRGB IEC61966-2.1">AA==</file></profile></colorspace><colorspace id="CMYK"><profile source="iccfile"><file name="uswebcoatedswop.icc" description="U.S. Web Coated (SWOP) v2">AA==</file></profile></colorspace><colorspace id="GRAY"><profile source="gamma"><gamma>2.2</gamma></profile></colorspace><colorspace id="defaultRGB"><profile source="iccfile"><file name="srgb color space profile.icm" description="sRGB IEC61966-2.1">AA==</file></profile></colorspace><colorspace id="defaultCMYK"><profile source="iccfile"><file name="uswebcoatedswop.icc" description="U.S. Web Coated (SWOP) v2">AA==</file></profile></colorspace><colorspace id="defaultGRAY"><profile source="gamma"><gamma>2.2</gamma></profile></colorspace></colormanagement>
+		<ppconnect>
+			<namevalue name="__#PPSuite#Connection_FaxNumber" expression="">
+			</namevalue>
+			<namevalue name="__#PPSuite#Connection_FaxDescription" expression="">
+			</namevalue>
+			<namevalue name="__#PPSuite#Connection_eMailAddress" expression="">
+			</namevalue>
+			<namevalue name="__#PPSuite#Connection_eMailSubject" expression="">
+			</namevalue>
+			<namevalue name="__#PPSuite#Connection_eMailBodyText" expression="">
+			</namevalue>
+			<namevalue name="__#PPSuite#Connection_PDFBookmark" expression="">
+			</namevalue>
+		</ppconnect>
+	</preferences>
+	<database_settings>
+		<table_name>'2327-2015-11-27$'</table_name>
+		<db_type>1</db_type>
+		<db_pathsettings>G:\打印\测试打印\打印测试条码(请勿外泄).xls</db_pathsettings>
+		<extended_properties>
+			<colnameheader>yes</colnameheader>
+			<format></format>
+			<encoding></encoding>
+		</extended_properties>
+		<filter_sort_settings>
+			<filter></filter>
+			<sort></sort>
+			<db_filter_enable>no</db_filter_enable>
+			<db_sort_enable>no</db_sort_enable>
+		</filter_sort_settings>
+		<filter_array_size>4</filter_array_size>
+		<filter>
+			<field>-1</field>
+			<comp>-1</comp>
+			<edit></edit>
+			<bool>-1</bool>
+		</filter>
+		<filter>
+			<field>-1</field>
+			<comp>-1</comp>
+			<edit></edit>
+			<bool>-1</bool>
+		</filter>
+		<filter>
+			<field>-1</field>
+			<comp>-1</comp>
+			<edit></edit>
+			<bool>-1</bool>
+		</filter>
+		<filter>
+			<field>-1</field>
+			<comp>-1</comp>
+			<edit></edit>
+		</filter>
+	</database_settings>
+	<layouts>
+		<layout>
+			<dimensions>
+				<size x="133.22835" y="591.02364"/>
+				<automatic_size>yes</automatic_size>
+				<custom_size>no</custom_size>
+				<fit_to_objects>no</fit_to_objects>
+			</dimensions>
+			<attributes>
+				<name></name>
+				<condition_expression>Print</condition_expression>
+				<copies_expression>1</copies_expression>
+			</attributes>
+			<printer_preferences>
+				<windows_devmode>//7/KFwAXAAxADkAMgAuADEANgA4AC4AMwA2AC4AMgA0ADAAXABLAHkAbwBjAGUAcgBhACAA
+TQBpAHQAYQAgAEsATQAtADIAMAA1ADAAIABLAFgA3CQAAFwAXAAxADkAMgAuADEANgA4AC4A
+MwA2AC4AMgA0ADAAXABLAHkAbwBjAGUAcgBhACAATQBpAHQAYQAgAAAAAAABBAMB3AAAJAP/
+hAMBAAgAaBCaC2QAAQAHAFgCAgABAFgCAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA
+AAAAAAAAAQAAAAMAAAAcAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABkUGNLAQAAAFIBAABwCgAA
+kAAJAAAAbwjqCioAKgAkEwAZKgAqAAAZJBOaC2gQKgAqAJ4a+CUqACoA+CWeGgAABAACAAAA
+AAAAAAAAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAADAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAMDAxAAAAAAAFAAAAAAAAADAwMDAAAAAAAAAAAEwgAACuLQAAAAAAAAIA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwgAACuLQAAAAAAAAIAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAABQAAAAAKoIBkAGQAAAAAAAAA
+AAAAAAAAAAAAAAAAAAACAAAAAQAAAAEAAAAAAAAAAQAAAEAAAgACAAAAAQAAAAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIA/AAAAAAEA
+HgAAAAAADAAAAAAAgD8AAAAAAAAAAAEAAAABAAAAWAIAAFgCAAAAAAAA/////wEBAAABAAAA
+AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAMAAAAIACAABKAQAALAEAAFgCAACWAAAAPAAAABYAAAAAAAAABQAAAOwAwgHsAMIB
+7ADCAewAwgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAECgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADnAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAIAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA
+MDAwMAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAU2ltU3VuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8AAAAAAAAAAD8LAAEAAgAAAAAAIEEAACBBAAAgQQAAAAAAAAAABQACAAAA
+IEEAAAAABgAAAAAAAAAAAAAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAA
+AAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcA
+AAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAA
+AAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAQAAAAAA
+AAAAAAAAAAAAAGRQY0tQwwAAUgEAADABAAAAAAAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABkUGNLECcAAFIB
+AAAYAAAAAAAAAAAAAABkUGNLIE4AAFIBAABEAwAAAAAAAAAAAAA6Z8ZbIAAxAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRQY0vpAwAAUgEAAOQE
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkUGNL
+ZOoAAFIBAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAA=</windows_devmode>
+				<tray_name>自动来源选择</tray_name>
+			</printer_preferences>
+			<object>
+				<identifier>{FC18E500-4F24-4E20-8EF1-4EF3DD8E4E47}</identifier>
+				<name>图像 1</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" alpha="0" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="0" top="0" right="141.9493" bottom="652.18512"/>
+				<snap_frame_to_content>no</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<image_object>
+					<scale>2</scale>
+					<keep_aspect_ratio>no</keep_aspect_ratio>
+					<horizontal_alignment>4</horizontal_alignment>
+					<vertical_alignment>4</vertical_alignment>
+					<variable_name>图像 1</variable_name>
+					<default_image_folder></default_image_folder>
+					<default_folder></default_folder>
+					<subfolders>no</subfolders>
+					<file_name>2吊牌排版21.eps</file_name>
+					<pdf_pagenumber_expression>1</pdf_pagenumber_expression>
+					<global_scope>no</global_scope>
+					<filters>
+						<two_color convert="no"><backgroundcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></backgroundcolor><foregroundcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></foregroundcolor>
+						</two_color>
+					</filters>
+				</image_object>
+			</object>
+			<object>
+				<identifier>{F4CFDFB6-5606-4D02-A615-5F9D12661A3F}</identifier>
+				<name>Text 1</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" alpha="0" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="38.49019" top="364.70731" right="111.32911" bottom="379.06585"/>
+				<snap_frame_to_content>no</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<text_object>
+					<backwardlink>{00000000-0000-0000-0000-000000000000}</backwardlink>
+					<forwardlink>{00000000-0000-0000-0000-000000000000}</forwardlink>
+					<rtf_data>e1xydGYxXGFuc2lcYW5zaWNwZzkzNlxkZWZmMFxkZWZsYW5nMTAzM1xkZWZsYW5nZmUyMDUy
+e1xmb250dGJse1xmMFxmbmlsXGZjaGFyc2V0MTM0IFwnYzFcJ2E1XCdjYVwnZTk7fX0NCntc
+Y29sb3J0YmwgO1xyZWQwXGdyZWVuMFxibHVlMDt9DQp7XCpcZ2VuZXJhdG9yIE1zZnRlZGl0
+IDUuNDEuMjEuMjUxMDt9XHZpZXdraW5kNFx1YzFccGFyZFxjZjFcbGFuZzIwNTJcZjBcZnMy
+NCBAXCdjNlwnYjdcJ2MzXCdmYkBccGFyDQpccGFyDQp9DQoA</rtf_data>
+					<emptylines_property>0</emptylines_property>
+					<horizontal_alignment>2</horizontal_alignment>
+					<vertical_alignment>6</vertical_alignment>
+					<vertical_text>no</vertical_text><textcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></textcolor>
+					<cmyk_output>no</cmyk_output>
+					<copy_fitting>
+						<reduce_to_fit>no</reduce_to_fit>
+						<fontsize_minimum>8</fontsize_minimum>
+						<allow_line_breaks>yes</allow_line_breaks>
+					</copy_fitting>
+				</text_object>
+			</object>
+			<object>
+				<identifier>{C19415C9-C967-4739-84F4-3443DBADD9D4}</identifier>
+				<name>Text 2</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" alpha="0" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="37.88824" top="378.75336" right="115.79894" bottom="390.08821"/>
+				<snap_frame_to_content>no</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<text_object>
+					<backwardlink>{00000000-0000-0000-0000-000000000000}</backwardlink>
+					<forwardlink>{00000000-0000-0000-0000-000000000000}</forwardlink>
+					<rtf_data>e1xydGYxXGFuc2lcYW5zaWNwZzkzNlxkZWZmMFxkZWZsYW5nMTAzM1xkZWZsYW5nZmUyMDUy
+e1xmb250dGJse1xmMFxmbmlsXGZjaGFyc2V0MCBBcmlhbDt9fQ0Ke1xjb2xvcnRibCA7XHJl
+ZDBcZ3JlZW4wXGJsdWUwO30NCntcKlxnZW5lcmF0b3IgTXNmdGVkaXQgNS40MS4yMS4yNTEw
+O31cdmlld2tpbmQ0XHVjMVxwYXJkXGNmMVxmczIwIEBcdTIxODMwP1x1MjE2OTc/XHUtMjk0
+MDE/XHUyMTQ5NT9AXHBhcg0KXHBhcg0KfQ0KAA==</rtf_data>
+					<emptylines_property>0</emptylines_property>
+					<horizontal_alignment>2</horizontal_alignment>
+					<vertical_alignment>6</vertical_alignment>
+					<vertical_text>no</vertical_text><textcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></textcolor>
+					<cmyk_output>no</cmyk_output>
+					<copy_fitting>
+						<reduce_to_fit>no</reduce_to_fit>
+						<fontsize_minimum>8</fontsize_minimum>
+						<allow_line_breaks>yes</allow_line_breaks>
+					</copy_fitting>
+				</text_object>
+			</object>
+			<object>
+				<identifier>{34570DE8-90B9-486F-8FE3-48EACAD2CF18}</identifier>
+				<name>Text 3</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" alpha="0" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="37.08559" top="390.59219" right="97.28305" bottom="405.21652"/>
+				<snap_frame_to_content>no</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<text_object>
+					<backwardlink>{00000000-0000-0000-0000-000000000000}</backwardlink>
+					<forwardlink>{00000000-0000-0000-0000-000000000000}</forwardlink>
+					<rtf_data>e1xydGYxXGFuc2lcYW5zaWNwZzkzNlxkZWZmMFxkZWZsYW5nMTAzM1xkZWZsYW5nZmUyMDUy
+e1xmb250dGJse1xmMFxmbmlsXGZjaGFyc2V0MCBBcmlhbDt9fQ0Ke1xjb2xvcnRibCA7XHJl
+ZDBcZ3JlZW4wXGJsdWUwO30NCntcKlxnZW5lcmF0b3IgTXNmdGVkaXQgNS40MS4yMS4yNTEw
+O31cdmlld2tpbmQ0XHVjMVxwYXJkXGNmMVxmczIwIEBcdTIxNDk1P1x1MjI0MTE/QFxwYXIN
+ClxwYXINCn0NCgA=</rtf_data>
+					<emptylines_property>0</emptylines_property>
+					<horizontal_alignment>2</horizontal_alignment>
+					<vertical_alignment>6</vertical_alignment>
+					<vertical_text>no</vertical_text><textcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></textcolor>
+					<cmyk_output>no</cmyk_output>
+					<copy_fitting>
+						<reduce_to_fit>no</reduce_to_fit>
+						<fontsize_minimum>8</fontsize_minimum>
+						<allow_line_breaks>yes</allow_line_breaks>
+					</copy_fitting>
+				</text_object>
+			</object>
+			<object>
+				<identifier>{AF6EF704-C106-4991-B146-1EF3258F47C5}</identifier>
+				<name>Text 4</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" alpha="0" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="54.29913" top="446.5882" right="139.43353" bottom="461.81451"/>
+				<snap_frame_to_content>no</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<text_object>
+					<backwardlink>{00000000-0000-0000-0000-000000000000}</backwardlink>
+					<forwardlink>{00000000-0000-0000-0000-000000000000}</forwardlink>
+					<rtf_data>e1xydGYxXGFuc2lcYW5zaWNwZzkzNlxkZWZmMFxkZWZsYW5nMTAzM1xkZWZsYW5nZmUyMDUy
+e1xmb250dGJse1xmMFxmbmlsXGZjaGFyc2V0MCBBcmlhbDt9fQ0Ke1xjb2xvcnRibCA7XHJl
+ZDBcZ3JlZW4wXGJsdWUwO30NCntcKlxnZW5lcmF0b3IgTXNmdGVkaXQgNS40MS4yMS4yNTEw
+O31cdmlld2tpbmQ0XHVjMVxwYXJkXGNmMVxmczE2IEBcdTI1MTkxP1x1LTMwNjQ0P1x1MjY2
+MzE/XHUyMDkzND9AXHBhcg0KXHBhcg0KfQ0KAA==</rtf_data>
+					<emptylines_property>0</emptylines_property>
+					<horizontal_alignment>2</horizontal_alignment>
+					<vertical_alignment>6</vertical_alignment>
+					<vertical_text>no</vertical_text><textcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></textcolor>
+					<cmyk_output>no</cmyk_output>
+					<copy_fitting>
+						<reduce_to_fit>no</reduce_to_fit>
+						<fontsize_minimum>8</fontsize_minimum>
+						<allow_line_breaks>yes</allow_line_breaks>
+					</copy_fitting>
+				</text_object>
+			</object>
+			<object>
+				<identifier>{1FC0B741-C654-492B-89E6-D1856454DBA2}</identifier>
+				<name>Text 5</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" alpha="0" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="70.38495" top="455.97461" right="140.47" bottom="478.42461"/>
+				<snap_frame_to_content>no</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<text_object>
+					<backwardlink>{00000000-0000-0000-0000-000000000000}</backwardlink>
+					<forwardlink>{00000000-0000-0000-0000-000000000000}</forwardlink>
+					<rtf_data>e1xydGYxXGFuc2lcYW5zaWNwZzkzNlxkZWZmMFxkZWZsYW5nMTAzM1xkZWZsYW5nZmUyMDUy
+e1xmb250dGJse1xmMFxmbmlsXGZjaGFyc2V0MCBBcmlhbDt9fQ0Ke1xjb2xvcnRibCA7XHJl
+ZDBcZ3JlZW4wXGJsdWUwO30NCntcKlxnZW5lcmF0b3IgTXNmdGVkaXQgNS40MS4yMS4yNTEw
+O31cdmlld2tpbmQ0XHVjMVxwYXJkXGNmMVxmczE2IEBcdTIzNDMzP1x1MjA4NDA/XHUyNTIx
+Nj9cdTI2NDE1P1x1MzE4Njc/XHUyMTAzNT9AXHBhcg0KXHBhcg0KfQ0KAA==</rtf_data>
+					<emptylines_property>0</emptylines_property>
+					<horizontal_alignment>2</horizontal_alignment>
+					<vertical_alignment>6</vertical_alignment>
+					<vertical_text>no</vertical_text><textcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></textcolor>
+					<cmyk_output>no</cmyk_output>
+					<copy_fitting>
+						<reduce_to_fit>no</reduce_to_fit>
+						<fontsize_minimum>8</fontsize_minimum>
+						<allow_line_breaks>yes</allow_line_breaks>
+					</copy_fitting>
+				</text_object>
+			</object>
+			<object>
+				<identifier>{863934C8-EEA5-4757-8A9B-4B74D212DE88}</identifier>
+				<name>Text 6</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" alpha="0" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="72.54401" top="475.71994" right="138.15923" bottom="498.16996"/>
+				<snap_frame_to_content>no</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<text_object>
+					<backwardlink>{00000000-0000-0000-0000-000000000000}</backwardlink>
+					<forwardlink>{00000000-0000-0000-0000-000000000000}</forwardlink>
+					<rtf_data>e1xydGYxXGFuc2lcYW5zaWNwZzkzNlxkZWZmMFxkZWZsYW5nMTAzM1xkZWZsYW5nZmUyMDUy
+e1xmb250dGJse1xmMFxmbmlsXGZjaGFyc2V0MCBBcmlhbDt9fQ0Ke1xjb2xvcnRibCA7XHJl
+ZDBcZ3JlZW4wXGJsdWUwO30NCntcKlxnZW5lcmF0b3IgTXNmdGVkaXQgNS40MS4yMS4yNTEw
+O31cdmlld2tpbmQ0XHVjMVxwYXJkXGNmMVxiXGZzMjAgQFx1LTI2ODkwP1x1MjE4MDY/XHUy
+MDIxNT9AXHBhcg0KXHBhcg0KfQ0KAA==</rtf_data>
+					<emptylines_property>0</emptylines_property>
+					<horizontal_alignment>2</horizontal_alignment>
+					<vertical_alignment>6</vertical_alignment>
+					<vertical_text>no</vertical_text><textcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></textcolor>
+					<cmyk_output>no</cmyk_output>
+					<copy_fitting>
+						<reduce_to_fit>no</reduce_to_fit>
+						<fontsize_minimum>8</fontsize_minimum>
+						<allow_line_breaks>yes</allow_line_breaks>
+					</copy_fitting>
+				</text_object>
+			</object>
+			<object>
+				<identifier>{7DDB3A1B-FA33-4022-9890-EB0FCEFA1722}</identifier>
+				<name>Barcode 1</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="54.63525" top="561.34839" right="89.15273" bottom="595.86587"/>
+				<snap_frame_to_content>yes</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<plugin_object title="Barcode" assembly_name="Barcode.plugins.dll" assembly_version="2.0.3.8" class_name="Barcode" url="http://www.printshopmail.com/plugins/barcode/" url_download_version="http://www.printshopmail.com/plugins/barcode/2_0/Barcode.plugins.dll">
+					<property_bag><Barcode><Initialized>True</Initialized><Type>QRCode</Type><Data>[二维码]</Data><Alignment>0;0</Alignment></Barcode>
+					</property_bag>
+				</plugin_object>
+			</object>
+			<object>
+				<identifier>{338435C2-52BD-4E4D-8458-937CF4E3A492}</identifier>
+				<name>Barcode 2</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="19.73392" top="492.77109" right="125.43785" bottom="510.02109"/>
+				<snap_frame_to_content>yes</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<plugin_object title="Barcode" assembly_name="Barcode.plugins.dll" assembly_version="2.0.3.8" class_name="Barcode" url="http://www.printshopmail.com/plugins/barcode/" url_download_version="http://www.printshopmail.com/plugins/barcode/2_0/Barcode.plugins.dll">
+					<property_bag><Barcode><Initialized>True</Initialized><Type>Ean13</Type><Data>[标准条码]</Data><Alignment>0;0</Alignment></Barcode>
+					</property_bag>
+				</plugin_object>
+			</object>
+			<object>
+				<identifier>{E0FF7128-64D1-4168-B7D7-6D4C82F5F753}</identifier>
+				<name>Barcode 3</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="5.39912" top="512.74634" right="137.4936" bottom="542.74634"/>
+				<snap_frame_to_content>yes</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<plugin_object title="Barcode" assembly_name="Barcode.plugins.dll" assembly_version="2.0.3.8" class_name="Barcode" url="http://www.printshopmail.com/plugins/barcode/" url_download_version="http://www.printshopmail.com/plugins/barcode/2_0/Barcode.plugins.dll">
+					<property_bag><Barcode><Initialized>True</Initialized><Type>Code128</Type><Data>[条码]</Data><Alignment>0;0</Alignment></Barcode>
+					</property_bag>
+				</plugin_object>
+			</object>
+		</layout>
+		<layout>
+			<dimensions>
+				<size x="133.22835" y="591.02364"/>
+				<automatic_size>yes</automatic_size>
+				<custom_size>no</custom_size>
+				<fit_to_objects>no</fit_to_objects>
+			</dimensions>
+			<attributes>
+				<name></name>
+				<condition_expression>Print</condition_expression>
+				<copies_expression>1</copies_expression>
+			</attributes>
+			<printer_preferences>
+				<windows_devmode>//7/KFwAXAAxADkAMgAuADEANgA4AC4AMwA2AC4AMgA0ADAAXABLAHkAbwBjAGUAcgBhACAA
+TQBpAHQAYQAgAEsATQAtADIAMAA1ADAAIABLAFgA3CQAAFwAXAAxADkAMgAuADEANgA4AC4A
+MwA2AC4AMgA0ADAAXABLAHkAbwBjAGUAcgBhACAATQBpAHQAYQAgAAAAAAABBAMB3AAAJAP/
+hAMBAAgAaBCaC2QAAQAHAFgCAgABAFgCAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA
+AAAAAAAAAQAAAAMAAAAcAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABkUGNLAQAAAFIBAABwCgAA
+kAAJAAAAbwjqCioAKgAkEwAZKgAqAAAZJBOaC2gQKgAqAJ4a+CUqACoA+CWeGgAABAACAAAA
+AAAAAAAAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAADAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAMDAxAAAAAAAFAAAAAAAAADAwMDAAAAAAAAAAAEwgAACuLQAAAAAAAAIA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwgAACuLQAAAAAAAAIAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAABQAAAAAKoIBkAGQAAAAAAAAA
+AAAAAAAAAAAAAAAAAAACAAAAAQAAAAEAAAAAAAAAAQAAAEAAAgACAAAAAQAAAAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIA/AAAAAAEA
+HgAAAAAADAAAAAAAgD8AAAAAAAAAAAEAAAABAAAAWAIAAFgCAAAAAAAA/////wEBAAABAAAA
+AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAMAAAAIACAABKAQAALAEAAFgCAACWAAAAPAAAABYAAAAAAAAABQAAAOwAwgHsAMIB
+7ADCAewAwgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAECgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADnAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAIAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA
+MDAwMAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAU2ltU3VuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8AAAAAAAAAAD8LAAEAAgAAAAAAIEEAACBBAAAgQQAAAAAAAAAABQACAAAA
+IEEAAAAABgAAAAAAAAAAAAAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAA
+AAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcA
+AAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAA
+AAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAAAAAAcAAAAcAQAAAQAAAAAA
+AAAAAAAAAAAAAGRQY0tQwwAAUgEAADABAAAAAAAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABkUGNLECcAAFIB
+AAAYAAAAAAAAAAAAAABkUGNLIE4AAFIBAABEAwAAAAAAAAAAAAA6Z8ZbIAAxAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRQY0vpAwAAUgEAAOQE
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkUGNL
+ZOoAAFIBAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAA=</windows_devmode>
+				<tray_name>自动来源选择</tray_name>
+			</printer_preferences>
+			<object>
+				<identifier>{6DA63B6B-928C-41C9-961C-B23D93F1B296}</identifier>
+				<name>图像 3</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" alpha="0" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="0" top="0" right="141.9478" bottom="652.18512"/>
+				<snap_frame_to_content>no</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<image_object>
+					<scale>2</scale>
+					<keep_aspect_ratio>no</keep_aspect_ratio>
+					<horizontal_alignment>4</horizontal_alignment>
+					<vertical_alignment>4</vertical_alignment>
+					<variable_name>图像 3</variable_name>
+					<default_image_folder></default_image_folder>
+					<default_folder></default_folder>
+					<subfolders>no</subfolders>
+					<file_name>2吊牌排版22.eps</file_name>
+					<pdf_pagenumber_expression>1</pdf_pagenumber_expression>
+					<global_scope>no</global_scope>
+					<filters>
+						<two_color convert="no"><backgroundcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></backgroundcolor><foregroundcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></foregroundcolor>
+						</two_color>
+					</filters>
+				</image_object>
+			</object>
+			<object>
+				<identifier>{5A70A3BE-29A4-46BE-A1A6-4E99F128E457}</identifier>
+				<name>Text 7</name>
+				<locked>no</locked>
+				<knockout>no</knockout>
+				<border_size>0</border_size>
+				<border_style>0</border_style><fillcolor colorspace="CMYK" alpha="0" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></fillcolor><bordercolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="1"><component>0</component><component>0</component><component>0</component><component>1</component></bordercolor>
+				<rotation>0</rotation>
+				<bounds left="17.01937" top="404.76782" right="125.69888" bottom="449.79616"/>
+				<snap_frame_to_content>no</snap_frame_to_content>
+				<show_mode>
+					<editor>yes</editor>
+					<jpeg_preview>yes</jpeg_preview>
+					<pdf_preview>yes</pdf_preview>
+					<print_preview>yes</print_preview>
+					<print>yes</print>
+				</show_mode>
+				<anchor>
+					<horizontal>0</horizontal>
+					<vertical>0</vertical>
+					<source></source>
+					<source_bounds left="0" top="0" right="0" bottom="0"/>
+				</anchor>
+				<text_object>
+					<backwardlink>{00000000-0000-0000-0000-000000000000}</backwardlink>
+					<forwardlink>{00000000-0000-0000-0000-000000000000}</forwardlink>
+					<rtf_data>e1xydGYxXGFuc2lcYW5zaWNwZzkzNlxkZWZmMFxkZWZsYW5nMTAzM1xkZWZsYW5nZmUyMDUy
+e1xmb250dGJse1xmMFxmbmlsXGZjaGFyc2V0MTM0IFwnYmJcJ2FhXCdjZVwnYzRcJ2Q2XCdk
+MFwnY2JcJ2NlO319DQp7XGNvbG9ydGJsIDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQ0K
+e1wqXGdlbmVyYXRvciBNc2Z0ZWRpdCA1LjQxLjIxLjI1MTA7fVx2aWV3a2luZDRcdWMxXHBh
+cmRcY2YxXGxhbmcyMDUyXGYwXGZzMTQgQFwnY2ZcJ2I0XCdiNVwnZDNcJ2I3XCdiZFwnYjdc
+J2E4QFxwYXINClxwYXINCn0NCgA=</rtf_data>
+					<emptylines_property>0</emptylines_property>
+					<horizontal_alignment>2</horizontal_alignment>
+					<vertical_alignment>6</vertical_alignment>
+					<vertical_text>no</vertical_text><textcolor colorspace="CMYK" downgrade_c="0" downgrade_m="0" downgrade_y="0" downgrade_k="0"><component>0</component><component>0</component><component>0</component><component>0</component></textcolor>
+					<cmyk_output>no</cmyk_output>
+					<copy_fitting>
+						<reduce_to_fit>no</reduce_to_fit>
+						<fontsize_minimum>8</fontsize_minimum>
+						<allow_line_breaks>yes</allow_line_breaks>
+					</copy_fitting>
+				</text_object>
+			</object>
+		</layout>
+	</layouts>
+	<variables>
+		<variable>
+			<name>品名</name>
+			<expression>[品名]</expression>
+			<Formatting>3</Formatting>
+			<Locale_ID>2052</Locale_ID>
+			<Currency_Symbol>¥</Currency_Symbol>
+			<Currency_DecimalSymbol>.</Currency_DecimalSymbol>
+			<Currency_DecimalPlaces>2</Currency_DecimalPlaces>
+			<Currency_DigitsInGroup>3</Currency_DigitsInGroup>
+			<Currency_GroupingSymbol>,</Currency_GroupingSymbol>
+			<Currency_NegativeFormat>2</Currency_NegativeFormat>
+			<Currency_PositiveFormat>0</Currency_PositiveFormat>
+			<Number_DecimalSymbol>.</Number_DecimalSymbol>
+			<Number_DecimalPlaces>2</Number_DecimalPlaces>
+			<Number_DigitsInGroup>3</Number_DigitsInGroup>
+			<Number_GroupingSymbol>,</Number_GroupingSymbol>
+			<Number_LeadingZeros>0</Number_LeadingZeros>
+			<Number_NegativeSymbol>-</Number_NegativeSymbol>
+			<Number_NegativeFormat>1</Number_NegativeFormat>
+			<Date_Style>yyyy'年'M'月'd'日'</Date_Style>
+		</variable>
+		<variable>
+			<name>零售价</name>
+			<expression>[零售价]</expression>
+			<Formatting>0</Formatting>
+			<Locale_ID>2052</Locale_ID>
+			<Currency_Symbol>¥</Currency_Symbol>
+			<Currency_DecimalSymbol>.</Currency_DecimalSymbol>
+			<Currency_DecimalPlaces>2</Currency_DecimalPlaces>
+			<Currency_DigitsInGroup>3</Currency_DigitsInGroup>
+			<Currency_GroupingSymbol>,</Currency_GroupingSymbol>
+			<Currency_NegativeFormat>2</Currency_NegativeFormat>
+			<Currency_PositiveFormat>0</Currency_PositiveFormat>
+			<Number_DecimalSymbol>.</Number_DecimalSymbol>
+			<Number_DecimalPlaces>2</Number_DecimalPlaces>
+			<Number_DigitsInGroup>3</Number_DigitsInGroup>
+			<Number_GroupingSymbol>,</Number_GroupingSymbol>
+			<Number_LeadingZeros>0</Number_LeadingZeros>
+			<Number_NegativeSymbol>-</Number_NegativeSymbol>
+			<Number_NegativeFormat>1</Number_NegativeFormat>
+			<Date_Style>yyyy'年'M'月'd'日'</Date_Style>
+		</variable>
+		<variable>
+			<name>执行标准</name>
+			<expression>[执行标准]</expression>
+			<Formatting>3</Formatting>
+			<Locale_ID>2052</Locale_ID>
+			<Currency_Symbol>¥</Currency_Symbol>
+			<Currency_DecimalSymbol>.</Currency_DecimalSymbol>
+			<Currency_DecimalPlaces>2</Currency_DecimalPlaces>
+			<Currency_DigitsInGroup>3</Currency_DigitsInGroup>
+			<Currency_GroupingSymbol>,</Currency_GroupingSymbol>
+			<Currency_NegativeFormat>2</Currency_NegativeFormat>
+			<Currency_PositiveFormat>0</Currency_PositiveFormat>
+			<Number_DecimalSymbol>.</Number_DecimalSymbol>
+			<Number_DecimalPlaces>2</Number_DecimalPlaces>
+			<Number_DigitsInGroup>3</Number_DigitsInGroup>
+			<Number_GroupingSymbol>,</Number_GroupingSymbol>
+			<Number_LeadingZeros>0</Number_LeadingZeros>
+			<Number_NegativeSymbol>-</Number_NegativeSymbol>
+			<Number_NegativeFormat>1</Number_NegativeFormat>
+			<Date_Style>yyyy'年'M'月'd'日'</Date_Style>
+		</variable>
+		<variable>
+			<name>安全技术类别</name>
+			<expression>[安全技术类别]</expression>
+			<Formatting>3</Formatting>
+			<Locale_ID>2052</Locale_ID>
+			<Currency_Symbol>¥</Currency_Symbol>
+			<Currency_DecimalSymbol>.</Currency_DecimalSymbol>
+			<Currency_DecimalPlaces>2</Currency_DecimalPlaces>
+			<Currency_DigitsInGroup>3</Currency_DigitsInGroup>
+			<Currency_GroupingSymbol>,</Currency_GroupingSymbol>
+			<Currency_NegativeFormat>2</Currency_NegativeFormat>
+			<Currency_PositiveFormat>0</Currency_PositiveFormat>
+			<Number_DecimalSymbol>.</Number_DecimalSymbol>
+			<Number_DecimalPlaces>2</Number_DecimalPlaces>
+			<Number_DigitsInGroup>3</Number_DigitsInGroup>
+			<Number_GroupingSymbol>,</Number_GroupingSymbol>
+			<Number_LeadingZeros>0</Number_LeadingZeros>
+			<Number_NegativeSymbol>-</Number_NegativeSymbol>
+			<Number_NegativeFormat>1</Number_NegativeFormat>
+			<Date_Style>yyyy'年'M'月'd'日'</Date_Style>
+		</variable>
+		<variable>
+			<name>图像 1</name>
+			<expression>"2吊牌排版21.eps"</expression>
+			<Formatting>3</Formatting>
+			<Locale_ID>2052</Locale_ID>
+			<Currency_Symbol>¥</Currency_Symbol>
+			<Currency_DecimalSymbol>.</Currency_DecimalSymbol>
+			<Currency_DecimalPlaces>2</Currency_DecimalPlaces>
+			<Currency_DigitsInGroup>3</Currency_DigitsInGroup>
+			<Currency_GroupingSymbol>,</Currency_GroupingSymbol>
+			<Currency_NegativeFormat>2</Currency_NegativeFormat>
+			<Currency_PositiveFormat>0</Currency_PositiveFormat>
+			<Number_DecimalSymbol>.</Number_DecimalSymbol>
+			<Number_DecimalPlaces>2</Number_DecimalPlaces>
+			<Number_DigitsInGroup>3</Number_DigitsInGroup>
+			<Number_GroupingSymbol>,</Number_GroupingSymbol>
+			<Number_LeadingZeros>0</Number_LeadingZeros>
+			<Number_NegativeSymbol>-</Number_NegativeSymbol>
+			<Number_NegativeFormat>1</Number_NegativeFormat>
+			<Date_Style>yyyy'年'M'月'd'日'</Date_Style>
+		</variable>
+		<variable>
+			<name>号型</name>
+			<expression>[号型]</expression>
+			<Formatting>3</Formatting>
+			<Locale_ID>2052</Locale_ID>
+			<Currency_Symbol>¥</Currency_Symbol>
+			<Currency_DecimalSymbol>.</Currency_DecimalSymbol>
+			<Currency_DecimalPlaces>2</Currency_DecimalPlaces>
+			<Currency_DigitsInGroup>3</Currency_DigitsInGroup>
+			<Currency_GroupingSymbol>,</Currency_GroupingSymbol>
+			<Currency_NegativeFormat>2</Currency_NegativeFormat>
+			<Currency_PositiveFormat>0</Currency_PositiveFormat>
+			<Number_DecimalSymbol>.</Number_DecimalSymbol>
+			<Number_DecimalPlaces>2</Number_DecimalPlaces>
+			<Number_DigitsInGroup>3</Number_DigitsInGroup>
+			<Number_GroupingSymbol>,</Number_GroupingSymbol>
+			<Number_LeadingZeros>0</Number_LeadingZeros>
+			<Number_NegativeSymbol>-</Number_NegativeSymbol>
+			<Number_NegativeFormat>1</Number_NegativeFormat>
+			<Date_Style>yyyy'年'M'月'd'日'</Date_Style>
+		</variable>
+		<variable>
+			<name>图像 3</name>
+			<expression>"2吊牌排版22.eps"</expression>
+			<Formatting>3</Formatting>
+			<Locale_ID>2052</Locale_ID>
+			<Currency_Symbol>¥</Currency_Symbol>
+			<Currency_DecimalSymbol>.</Currency_DecimalSymbol>
+			<Currency_DecimalPlaces>2</Currency_DecimalPlaces>
+			<Currency_DigitsInGroup>3</Currency_DigitsInGroup>
+			<Currency_GroupingSymbol>,</Currency_GroupingSymbol>
+			<Currency_NegativeFormat>2</Currency_NegativeFormat>
+			<Currency_PositiveFormat>0</Currency_PositiveFormat>
+			<Number_DecimalSymbol>.</Number_DecimalSymbol>
+			<Number_DecimalPlaces>2</Number_DecimalPlaces>
+			<Number_DigitsInGroup>3</Number_DigitsInGroup>
+			<Number_GroupingSymbol>,</Number_GroupingSymbol>
+			<Number_LeadingZeros>0</Number_LeadingZeros>
+			<Number_NegativeSymbol>-</Number_NegativeSymbol>
+			<Number_NegativeFormat>1</Number_NegativeFormat>
+			<Date_Style>yyyy'年'M'月'd'日'</Date_Style>
+		</variable>
+		<variable>
+			<name>商品货号</name>
+			<expression>[商品货号]</expression>
+			<Formatting>3</Formatting>
+			<Locale_ID>2052</Locale_ID>
+			<Currency_Symbol>¥</Currency_Symbol>
+			<Currency_DecimalSymbol>.</Currency_DecimalSymbol>
+			<Currency_DecimalPlaces>2</Currency_DecimalPlaces>
+			<Currency_DigitsInGroup>3</Currency_DigitsInGroup>
+			<Currency_GroupingSymbol>,</Currency_GroupingSymbol>
+			<Currency_NegativeFormat>2</Currency_NegativeFormat>
+			<Currency_PositiveFormat>0</Currency_PositiveFormat>
+			<Number_DecimalSymbol>.</Number_DecimalSymbol>
+			<Number_DecimalPlaces>2</Number_DecimalPlaces>
+			<Number_DigitsInGroup>3</Number_DigitsInGroup>
+			<Number_GroupingSymbol>,</Number_GroupingSymbol>
+			<Number_LeadingZeros>0</Number_LeadingZeros>
+			<Number_NegativeSymbol>-</Number_NegativeSymbol>
+			<Number_NegativeFormat>1</Number_NegativeFormat>
+			<Date_Style>yyyy'年'M'月'd'日'</Date_Style>
+		</variable>
+		<variable>
+			<name>洗涤方法</name>
+			<expression>[洗涤方法]</expression>
+			<Formatting>3</Formatting>
+			<Locale_ID>2052</Locale_ID>
+			<Currency_Symbol>¥</Currency_Symbol>
+			<Currency_DecimalSymbol>.</Currency_DecimalSymbol>
+			<Currency_DecimalPlaces>2</Currency_DecimalPlaces>
+			<Currency_DigitsInGroup>3</Currency_DigitsInGroup>
+			<Currency_GroupingSymbol>,</Currency_GroupingSymbol>
+			<Currency_NegativeFormat>2</Currency_NegativeFormat>
+			<Currency_PositiveFormat>0</Currency_PositiveFormat>
+			<Number_DecimalSymbol>.</Number_DecimalSymbol>
+			<Number_DecimalPlaces>2</Number_DecimalPlaces>
+			<Number_DigitsInGroup>3</Number_DigitsInGroup>
+			<Number_GroupingSymbol>,</Number_GroupingSymbol>
+			<Number_LeadingZeros>0</Number_LeadingZeros>
+			<Number_NegativeSymbol>-</Number_NegativeSymbol>
+			<Number_NegativeFormat>1</Number_NegativeFormat>
+			<Date_Style>yyyy'年'M'月'd'日'</Date_Style>
+		</variable>
+	</variables>
+	<data_fields>
+		<data_field>
+			<in_use>yes</in_use>
+			<name>品名</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>yes</in_use>
+			<name>执行标准</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>yes</in_use>
+			<name>安全技术类别</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>yes</in_use>
+			<name>商品货号</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>yes</in_use>
+			<name>号型</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>no</in_use>
+			<name>规格</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>no</in_use>
+			<name>颜色</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>no</in_use>
+			<name>商标</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>no</in_use>
+			<name>等级</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>no</in_use>
+			<name>检验</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>yes</in_use>
+			<name>零售价</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>no</in_use>
+			<name>批次</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>yes</in_use>
+			<name>条码</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>yes</in_use>
+			<name>标准条码</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>yes</in_use>
+			<name>洗涤方法</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+		<data_field>
+			<in_use>yes</in_use>
+			<name>二维码</name>
+			<default_value></default_value>
+			<source>user_input</source>
+			<remarks></remarks>
+		</data_field>
+	</data_fields>
+	<template_folders>
+	</template_folders>
+	<embedded_ps>
+		<author>PrintShop Mail</author>
+		<creation_date>1992-07-01T11:00:00</creation_date>
+		<last_modification_date>1992-07-01T11:00:00</last_modification_date>
+		<name>Embed nothing</name>
+		<description></description>
+		<start_of_page></start_of_page>
+		<start_of_job></start_of_job>
+		<between_sets></between_sets>
+	</embedded_ps>
+	<thumbnail>
+		<jpeg>/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAcFBQYFBAcGBQYIBwcIChELCgkJChUPEAwRGBUa
+GRgVGBcbHichGx0lHRcYIi4iJSgpKywrGiAvMy8qMicqKyr/2wBDAQcICAoJChQLCxQqHBgc
+KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKir/wAAR
+CAOlApQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAA
+AgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkK
+FhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWG
+h4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl
+5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREA
+AgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYk
+NOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk
+5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDzzxR4o1+38XavDBrWoRRR3sqpGly4VQHO
+AADwKy/+Et8R/wDQe1L/AMCn/wAaPFv/ACOutf8AX/N/6Gax6CjY/wCEt8R/9B7Uv/Ap/wDG
+j/hLfEf/AEHtS/8AAp/8ax6KANj/AIS3xH/0HtS/8Cn/AMaP+Et8R/8AQe1L/wACn/xrHooA
+2P8AhLfEf/Qe1L/wKf8Axo/4S3xH/wBB7Uv/AAKf/GseigDY/wCEt8R/9B7Uv/Ap/wDGj/hL
+fEf/AEHtS/8AAp/8ax6KANj/AIS3xH/0HtS/8Cn/AMaP+Et8R/8AQe1L/wACn/xrHooA2P8A
+hLfEf/Qe1L/wKf8Axr6k8feAfB9n8NvEt1Z+E9DguIdJupIpYtNhV42ELEMpC5BBGQRXyHX2
+58R/+SWeK/8AsC3n/oh6BMP+FceCP+hN8P8A/grg/wDiaP8AhXHgj/oTfD//AIK4P/ia6Sig
+Rzf/AArjwR/0Jvh//wAFcH/xNH/CuPBH/Qm+H/8AwVwf/E10lFAHN/8ACuPBH/Qm+H//AAVw
+f/E0f8K48Ef9Cb4f/wDBXB/8TXSUUAc3/wAK48Ef9Cb4f/8ABXB/8TR/wrjwR/0Jvh//AMFc
+H/xNdJRQBzf/AArjwR/0Jvh//wAFcH/xNH/CuPBH/Qm+H/8AwVwf/E10lFAHN/8ACuPBH/Qm
++H//AAVwf/E0f8K48Ef9Cb4f/wDBXB/8TXSUUAc3/wAK48Ef9Cb4f/8ABXB/8TWH418IeGtB
+8C61qeh+HdJ03ULaykaC7s7GKKWI7SMq6qCDgnpXoFcv8S/+SY+If+vGT+VAHx8PFviPH/If
+1L/wLf8Axpf+Et8R/wDQe1L/AMCn/wAaxx0FFBRsf8Jb4j/6D2pf+BT/AONH/CW+I/8AoPal
+/wCBT/41j0UAbH/CW+I/+g9qX/gU/wDjR/wlviP/AKD2pf8AgU/+NY9FAGx/wlviP/oPal/4
+FP8A40f8Jb4j/wCg9qX/AIFP/jWPRQBsf8Jb4j/6D2pf+BT/AONH/CW+I/8AoPal/wCBT/41
+j0UAbH/CW+I/+g9qX/gU/wDjR/wlviP/AKD2pf8AgU/+NY9FAHYeD9f1jVPHGhafqeqXl5ZX
+eo28FxbXE7SRzRtIqsjKThlIJBB4INfRniPwD4Pg17wnHB4T0ONLjVpI5lTTYQJF+w3TbWAX
+kblU4PdQe1fMfgH/AJKT4Z/7C1r/AOjlr688Uf8AIxeDP+w1J/6b7ygTD/hXHgj/AKE3w/8A
++CuD/wCJo/4Vx4I/6E3w/wD+CuD/AOJrpKKBHN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm
++H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm+H//AAVwf/E10lFAHN/8
+K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm+H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE
+0f8ACuPBH/Qm+H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm+H//AAVw
+f/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm+H//AAVwf/E10lFAHN/8K48Ef9Cb
+4f8A/BXB/wDE0f8ACuPBH/Qm+H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPB
+H/Qm+H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm+H//AAVwf/E10lFA
+HN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm+H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB
+/wDE0f8ACuPBH/Qm+H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm+H//
+AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm+H//AAVwf/E10lFAHN/8K48E
+f9Cb4f8A/BXB/wDE0f8ACuPBH/Qm+H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE0f8A
+CuPBH/Qm+H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm+H//AAVwf/E1
+0lFAHN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm+H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A
+/BXB/wDE0f8ACuPBH/Qm+H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE0f8ACuPBH/Qm
++H//AAVwf/E10lFAHN/8K48Ef9Cb4f8A/BXB/wDE0V0lFAHwv4t/5HXWv+v+b/0M1lQxPPPH
+DCu6SRgiKO5JwBWr4t/5HXWv+v8Am/8AQzWXb+cLqH7Lu8/zF8rZ13Z4x75oKOz/AOFN/ED/
+AKFuf/v7H/8AFVXv/hV420ywmvb/AECaG3hXdJIZEO0fg1fQXw58I+NbZI9W8e+J9Rmkxvj0
+yObKr/10I+8f9kcfWuc+KHirxxqscljpnhm903w6ki/a7y4jG+aMMM8Z+Rf1+lAjxjW/hx4u
+8OaW+pa1ok9tZoQHmLKwXPAzgnH1qvZeB/Eeo+G21+z0x5NKXduud6hRtODwTng19feINf0W
+01DTPDmvopi16OWGPzceW7KFzGfdg3HuK5PXPCMPgr4DeI9FtZmmtkiuJIS33lR33BT6kZxm
+gLnzX4j8FeIvCVtBceItMksYbhtkUjurKzYzjIJ7U7TPA3iTWPD0uu6bpck2mRBy91vVVAQZ
+Y8kdK+hvh74jv/G/wVaHTTay+INLT7MovIxIhdR8jMD/AHl4z65rO+PPiU+H/h/Y+F4WiW91
+RR9pECBFEa4LkKOgZuPzoA8gT4PePpI1dPDk5VgGB82PkH/gVQz/AAq8bW95bWk2gTJPdlhC
+hkT59oy38XYc1YT4x+PkVETxFMFUBQPJj4H/AHzX0k1rLa+JPBwnvrm+eRrmQy3JUtzB0+UA
+Y/CgD5lt/hV42u7i5gt9AmeW0kEc6iRPkYqGA+96EH8aln+EPjy2t5J5/Ds6RRIXdjLHwAMk
+/errfif4+8T+FPirrtn4e1WSygleKV0WNWy3lKM8g9gK674V6/r3jHwV4i1TxBrl5dPZpLEk
+GI1iYGE/eAXJIJ9RQM+cAQQCOh6V9ufEf/klniv/ALAt5/6IeviGL/Up/uivt74j/wDJLPFf
+/YFvP/RD0CZ0lFFFAgooooAKKKKACiiigAooooAKKKKACuX+Jf8AyTHxD/14yfyrqK5f4l/8
+kx8Q/wDXjJ/KgD4nHQVo6HoOp+JdUXTtDtGu7tlLiJWAJA6nkgVnDoK6DwRb+JLvxXb2/guW
+WHVZAypJE4TamPmJJ6DHWgo1/wDhTfxA/wChbn/7+x//ABVV5/hV42tbu1tZ9AmSa7ZlgQyJ
+85Vdx/i9ATX054b0bWfBvh2a98QavqvifUymWhjO5Qf7sacf99H9K4vR9d8b678ZdFm8U6JL
+oukqLgWVu4B+fyzyzd2259qBXPAfEfhLXfCUkKeI9NlsTOpaIuQQ4HXBBI/CtR/hd4zims4Z
+NDlWS+z9mUyx/vcLuOPm9Oa+lvFNv4e+Jba74Fv28nUtPCSRscbkLIGWVPUAttI/xrlvjvf3
+XhnQPCV9Zv8A6Vp1+row4DFU5H0PI/GgLnzpr2h6l4Y1Q6dr9q1ldhA/lSEZKnoRg4NbrfC/
+xmkdk76FMgvmCWwaRAZGKlgMbs/dBPPpX1G8tx4tg8Na34fWwk066IkvvtNusj+SVzhSehDD
+b+J9K8Z+N/xEvY/iTZ2nh67Nu3h8EiVADid1w3B44U7fxNAHG/8ACm/iB/0Lc/8A39j/APiq
+rR/CvxrLeXVrHoMzT2iq06eYnyBgSv8AF3ANdf8AD34jeNPFPj7S9F1PxLdra3bsshhSJXGE
+J4O09xXuujxmLxl4qjLtIVtrNS7/AHm/dvycd6APl2y+FHjfUrGG8stAmlt50DxyCRBuU9Dy
+1VNd+HfivwzpZ1HXdHls7QOsZleRCNzdBgEmr1v8WPG+l262Nhr0sNtbZjijEUZ2qDgDla9M
+8fS31/8As2Werapqd1f3OoS2ksnnlNsZ3HOwKowD756UDPIPAP8AyUnwz/2FrX/0ctfXnij/
+AJGLwZ/2GpP/AE33lfIfgH/kpPhn/sLWv/o5a+vPFH/IxeDP+w1J/wCm+8oEzpKKKKBBRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAfC/i3/AJHXWv8Ar/m/9DNZUUrwTJNCxSSNg6MOxByD
+Wr4t/wCR11r/AK/5v/QzWPQUdp/wt/x9/wBDPd/98p/8TVe++KPjXUrGWzv/ABDczW8y7ZI2
+VMMP++a5OigDb17xl4h8Tm1Ov6rNem0JaAvgGMnGSMAf3R+VX774meM9T0ubTtQ8QXVxaTR+
+XJE4XDr6E4zXK0UAbHh/xZrvhWSd/D2pzWDXACy+Xg7wOmQQfWodc8Qat4l1AX2vX0t9chBG
+JJMZCjoBjjuazaKACuqf4neM5Li0nfxBcmWz3fZ22p+7yu0449OK5WigC7q+r3+vapLqOsXT
+3d5NjzJnAy2BgdPYVd0bxh4g8Pafc2Oi6pLaWt3nz4kCkPkYOcj04rFooAAAAAOg6V9ufEf/
+AJJZ4r/7At5/6IeviOvtz4j/APJLPFf/AGBbz/0Q9AmdJRRRQIKKKKACiiigAooooAKKKKAC
+iiigArl/iX/yTHxD/wBeMn8q6iuX+Jf/ACTHxD/14yfyoA+Jx0FaGi67qfhzUl1DRLx7O7VS
+glQAkA9RyDWeOgooKOz/AOFvePv+hnu/++U/+JqCf4oeNbm6trmfxDcvNaMzQOVTKFl2nHy9
+wcVydFAG0fGHiA+KP+Ej/tWcaxgA3YwGIC7cdMYwMYxUmv8AjbxJ4ptorfxBq019FC++NJAo
+2tjGeAKwaKAOl0b4h+LfD2mJp2i67c2lnGSUhUKQpJycZB71z9zczXl1Lc3UjSzzOZJJHOS7
+E5JP41FRQBb0rVb7RNUh1HSrhrW8gJMcyAZUkYPX2NdBH8T/ABpFeXN1H4guVnugqzOFTLhQ
+QueOwJrlKKAFJLMS3JJyfetm78Ya/feG4dAu9Tll0qDb5dqQu1dv3ecZ4+tYtFAHQeAf+Sk+
+Gf8AsLWv/o5a+vPFH/IxeDP+w1J/6b7yvkPwD/yUnwz/ANha1/8ARy19eeKP+Ri8Gf8AYak/
+9N95QJnSUUUUCCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA+F/Fv/I661/1/wA3/oZrHrY8
+W/8AI661/wBf83/oZrHoKCiiigAooooAKKKKACiiigAooooAK+3PiP8A8ks8V/8AYFvP/RD1
+8R19ufEf/klniv8A7At5/wCiHoEzpKKKKBBRRRQAUUUUAFFFFABRRRQAUUUUAFcv8S/+SY+I
+f+vGT+VdRXL/ABL/AOSY+If+vGT+VAHxOOgooHQUUFBRRRQAUUUUAFFFFABRRRQAUUUUAdB4
+B/5KT4Z/7C1r/wCjlr688Uf8jF4M/wCw1J/6b7yvkPwD/wAlJ8M/9ha1/wDRy19eeKP+Ri8G
+f9hqT/033lAmdJRRRQIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD4X8W/8jrrX/X/N/wCh
+msetjxb/AMjrrX/X/N/6Gax6CgooooAKKKKACiiigAooooAKKKKACvtz4j/8ks8V/wDYFvP/
+AEQ9fEdfbnxH/wCSWeK/+wLef+iHoEzpKKKKBBRRRQAUUUUAFFFFABRRRQAUUUUAFcv8S/8A
+kmPiH/rxk/lXUVy/xL/5Jj4h/wCvGT+VAHxOOgooHQUUFBRRRQAUUUUAFFFFABRRRQAUUUUA
+dB4B/wCSk+Gf+wta/wDo5a+vPFH/ACMXgz/sNSf+m+8r5D8A/wDJSfDP/YWtf/Ry19eeKP8A
+kYvBn/Yak/8ATfeUCZ0lFFFAgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAPhfxb/wAjrrX/
+AF/zf+hmsetjxb/yOutf9f8AN/6Gax6CgooooAKKKKACiiigAooooAKKKKACvtz4j/8AJLPF
+f/YFvP8A0Q9fEdfbnxH/AOSWeK/+wLef+iHoEzpKKKKBBRRRQAUUUUAFFFFABRRRQAUUUUAF
+cv8AEv8A5Jj4h/68ZP5V1Fcv8S/+SY+If+vGT+VAHxOOgooHQUUFBRRRQAUUUUAFFFFABRRR
+QAUUUUAdB4B/5KT4Z/7C1r/6OWvrzxR/yMXgz/sNSf8ApvvK+Q/AP/JSfDP/AGFrX/0ctfXn
+ij/kYvBn/Yak/wDTfeUCZ0lFFFAgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAPhfxb/AMjr
+rX/X/N/6Gax62PFv/I661/1/zf8AoZrHoKCiiigAooooAKKKKACiiigAooooAK+3PiP/AMks
+8V/9gW8/9EPXxHX258R/+SWeK/8AsC3n/oh6BM6SiiigQUUUUAFFFFABRRRQAUUUUAFFFFAB
+XL/Ev/kmPiH/AK8ZP5V1Fcv8S/8AkmPiH/rxk/lQB8TjoKKB0FFBQUUUUAFFFFABRRRQAUUU
+UAFFFFAHQeAf+Sk+Gf8AsLWv/o5a+vPFH/IxeDP+w1J/6b7yvkPwD/yUnwz/ANha1/8ARy19
+eeKP+Ri8Gf8AYak/9N95QJnSUUUUCCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA+F/Fv/I6
+61/1/wA3/oZrHrY8W/8AI661/wBf83/oZrHoKCiiigAooooAKKKKACiiigAooooAK+3PiP8A
+8ks8V/8AYFvP/RD18R19ufEf/klniv8A7At5/wCiHoEzpKKKKBBRRRQAUUUUAFFFFABRRRQA
+UUUUAFcv8S/+SY+If+vGT+VdRXL/ABL/AOSY+If+vGT+VAHxOOgooHQUUFBRRRQAUUUUAFFF
+FABRRRQAUUUUAdB4B/5KT4Z/7C1r/wCjlr688Uf8jF4M/wCw1J/6b7yvkPwD/wAlJ8M/9ha1
+/wDRy19eeKP+Ri8Gf9hqT/033lAmdJRRRQIKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD4X
+8W/8jrrX/X/N/wChmsetjxb/AMjrrX/X/N/6Gax6CgooooAKKKKACiiigAooooAKKKKACvtz
+4j/8ks8V/wDYFvP/AEQ9fEdfbnxH/wCSWeK/+wLef+iHoEzpKKKKBBRRRQAUUUUAFFFFABRR
+RQAUUUUAFcv8S/8AkmPiH/rxk/lXUVy/xL/5Jj4h/wCvGT+VAHxOOgooHQUUFBRRRQAUUUUA
+FFFFABRRRQAUUUUAdB4B/wCSk+Gf+wta/wDo5a+vPFH/ACMXgz/sNSf+m+8r5D8A/wDJSfDP
+/YWtf/Ry19eeKP8AkYvBn/Yak/8ATfeUCZ0lFFFAgooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKAPhfxb/wAjrrX/AF/zf+hmsetjxb/yOutf9f8AN/6Gax6CgooooAKKKKACiiigAooooAKK
+KKACvtz4j/8AJLPFf/YFvP8A0Q9fEdfbnxH/AOSWeK/+wLef+iHoEzpKKKKBBRRRQAUUUUAF
+FFFABRRRQAUUUUAFcv8AEv8A5Jj4h/68ZP5V1Fcv8S/+SY+If+vGT+VAHxOOgooHQUUFBRRR
+QAUUUUAFFFFABRRRQAUUUUAdB4B/5KT4Z/7C1r/6OWvrzxR/yMXgz/sNSf8ApvvK+Q/AP/JS
+fDP/AGFrX/0ctfXnij/kYvBn/Yak/wDTfeUCZ0lFFFAgooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKAPhfxb/AMjrrX/X/N/6Gax62PFv/I661/1/zf8AoZrHoKCiiigAooooAKKKKACiiigA
+ooooAK+3PiP/AMks8V/9gW8/9EPXxHX258R/+SWeK/8AsC3n/oh6BM6SiiigQUUUUAFFFFAB
+RRRQAUUUUAFFFFABXL/Ev/kmPiH/AK8ZP5V1Fcv8S/8AkmPiH/rxk/lQB8TjoKKB0FFBQUUU
+UAFFFFABRRRQAUUUUAFFFFAHQeAf+Sk+Gf8AsLWv/o5a+vPFH/IxeDP+w1J/6b7yvkPwD/yU
+nwz/ANha1/8ARy19eeKP+Ri8Gf8AYak/9N95QJnSUUUUCCiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooA+F/Fv/I661/1/wA3/oZrHrY8W/8AI661/wBf83/oZrHoKCiiigAooooAKKKKACii
+igAooooAK+3PiP8A8ks8V/8AYFvP/RD18R19ufEf/klniv8A7At5/wCiHoEzpKKKKBBRRRQA
+UUUUAFFFFABRRRQAUUUUAFcv8S/+SY+If+vGT+VdRXL/ABL/AOSY+If+vGT+VAHxOOgooHQU
+UFBRRRQAUUUUAFFFFABRRRQAUUUUAdB4B/5KT4Z/7C1r/wCjlr688Uf8jF4M/wCw1J/6b7yv
+kPwD/wAlJ8M/9ha1/wDRy19eeKP+Ri8Gf9hqT/033lAmdJRRRQIKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigD4X8W/8jrrX/X/N/wChmsetjxb/AMjrrX/X/N/6Gax6CgooooAKKKKACiii
+gAooooAKKKKACvtz4j/8ks8V/wDYFvP/AEQ9fEdfbnxH/wCSWeK/+wLef+iHoEzpKKKKBBRR
+RQAUUUUAFFFFABRRRQAUUUUAFcv8S/8AkmPiH/rxk/lXUVy/xL/5Jj4h/wCvGT+VAHxOOgoo
+HQUUFBRRRQAUUUUAFFFFABRRRQAUUUUAdB4B/wCSk+Gf+wta/wDo5a+vPFH/ACMXgz/sNSf+
+m+8r5D8A/wDJSfDP/YWtf/Ry19eeKP8AkYvBn/Yak/8ATfeUCZ0lFFFAgooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKAPhfxb/wAjrrX/AF/zf+hmsetjxb/yOutf9f8AN/6Gax6CgooooAKK
+KKACiiigAooooAKKKKACvtz4j/8AJLPFf/YFvP8A0Q9fEdfbnxH/AOSWeK/+wLef+iHoEzpK
+KKKBBRRRQAUUUUAFFFFABRRRQAUUUUAFcv8AEv8A5Jj4h/68ZP5V1Fcv8S/+SY+If+vGT+VA
+HxOOgooHQUUFBRRRQAUUUUAFFFFABRRRQAUUUUAdB4B/5KT4Z/7C1r/6OWvrzxR/yMXgz/sN
+Sf8ApvvK+Q/AP/JSfDP/AGFrX/0ctfXnij/kYvBn/Yak/wDTfeUCZ0lFFFAgooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+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
+yRyqohgaa5ivFESgt510fKjh/eTTOWSUR4XSh8E634istAs9a0uPTAjzX80GnaSDZ3K+dCkM
+MxnmEoRQkUpgYJuiRY1VXgUKAdd8G7x5PC82nW73j6Zpb/ZrQX+2SeNdzMqtMrlZQYmhdDGg
+jVJEVXkwSPRK8/8Ahl4d1LTrnVde1TTtP09vEENneGG3SRJ0maNpLhJlfpiaWQrkswDbSdqo
+q+gUAFFFFABXN+KP+Ri8Gf8AYak/9N95XSVz/iO2nn17wnJBDJIlvq0kkzIhIjX7DdLuYjoN
+zKMnuwHegDoKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooA//9k=</jpeg>
+	</thumbnail>
+</document>

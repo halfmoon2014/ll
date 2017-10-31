@@ -1,0 +1,46 @@
+﻿
+.operation_right {
+    margin: 20px 0 0 25px;
+    overflow: hidden;
+    padding-bottom: 50px;
+    width: 715px;
+}
+.operation_right table {
+    margin: 20px auto;
+    width: 700px;
+}
+.operation_right table td {
+    color: #ccc;
+    height: 30px;
+    line-height: 20px;
+}
+.operation_right table td.finance_icons {
+    background: url("../images/finance.gif") no-repeat scroll left center rgba(0, 0, 0, 0);
+    height: 20px;
+    width: 30px;
+}
+.operation_right table td span {
+    background: none repeat scroll 0 0 #535353;
+    color: #fff;
+    display: block;
+    height: 20px;
+    text-align: center;
+    width: 60px;
+}
+.operation_right table td span a:hover {
+    background: none repeat scroll 0 0 #999;
+    color: #fff;
+    display: block;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 60px;
+}
+.finance_list {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+.finance_list a {
+    padding: 0 3px;
+}

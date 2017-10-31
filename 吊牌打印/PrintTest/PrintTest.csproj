@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DBADB32B-099F-419E-B718-12E94A946240}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PrintTest</RootNamespace>
+    <AssemblyName>PrintTest</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EAN13">
+      <HintPath>..\lib\EAN13.dll</HintPath>
+    </Reference>
+    <Reference Include="GenCode128">
+      <HintPath>..\lib\GenCode128.dll</HintPath>
+    </Reference>
+    <Reference Include="LiLanzModel">
+      <HintPath>..\lib\LiLanzModel.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.QRCode">
+      <HintPath>..\lib\ThoughtWorks.QRCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addition\PrintTest_\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addition\PrintTest_\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addition\PrintTest_\common.cs" />
+    <Compile Include="addition\PrintTest_\EAN13.cs" />
+    <Compile Include="addition\PrintTest_\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addition\PrintTest_\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addition\PrintTest_\FrmPrintSingle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addition\PrintTest_\FrmPrintSingle.Designer.cs">
+      <DependentUpon>FrmPrintSingle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addition\PrintTest_\FrmSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addition\PrintTest_\FrmSet.Designer.cs">
+      <DependentUpon>FrmSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addition\PrintTest_\FromLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addition\PrintTest_\FromLogin.Designer.cs">
+      <DependentUpon>FromLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addition\PrintTest_\LabelPrint.cs" />
+    <Compile Include="addition\PrintTest_\LoadFace.cs" />
+    <Compile Include="addition\PrintTest_\OrderInfoPrint.cs" />
+    <Compile Include="addition\PrintTest_\PagePrintItem.cs" />
+    <Compile Include="addition\PrintTest_\Program.cs" />
+    <Compile Include="addition\PrintTest_\Properties\AssemblyInfo.cs" />
+    <Compile Include="addition\PrintTest_\Properties\Resources.Designer.cs" />
+    <Compile Include="addition\PrintTest_\Properties\Settings.Designer.cs" />
+    <Compile Include="addition\PrintTest_\Serializer.cs" />
+    <Compile Include="addition\PrintTest_\Web References\WebService\Reference.cs" />
+    <Compile Include="common.cs" />
+    <Compile Include="EAN13.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintSingle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintSingle.Designer.cs">
+      <DependentUpon>FrmPrintSingle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSet.Designer.cs">
+      <DependentUpon>FrmSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabelPrint.cs" />
+    <Compile Include="LabelPrint14.cs" />
+    <Compile Include="LoadFace.cs" />
+    <Compile Include="OrderInfoPrint.cs" />
+    <Compile Include="PagePrintItem.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serializer.cs" />
+    <Compile Include="Web References\SrvSysBace\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addition\PrintTest_\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addition\PrintTest_\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addition\PrintTest_\FrmPrintSingle.resx">
+      <DependentUpon>FrmPrintSingle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addition\PrintTest_\FrmSet.resx">
+      <DependentUpon>FrmSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addition\PrintTest_\FromLogin.resx">
+      <DependentUpon>FromLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addition\PrintTest_\obj\x86\Debug\PrintTest.AboutBox.resources" />
+    <EmbeddedResource Include="addition\PrintTest_\obj\x86\Debug\PrintTest.Form1.resources" />
+    <EmbeddedResource Include="addition\PrintTest_\obj\x86\Debug\PrintTest.FrmPrintSingle.resources" />
+    <EmbeddedResource Include="addition\PrintTest_\obj\x86\Debug\PrintTest.FrmSet.resources" />
+    <EmbeddedResource Include="addition\PrintTest_\obj\x86\Debug\PrintTest.Properties.Resources.resources" />
+    <EmbeddedResource Include="addition\PrintTest_\Properties\Resources.resx" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintSingle.resx">
+      <DependentUpon>FrmPrintSingle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSet.resx">
+      <DependentUpon>FrmSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="addition\100018#单唯一码.xls" />
+    <None Include="addition\2吊牌排版21 %281%29.eps" />
+    <None Include="addition\2吊牌排版21.eps" />
+    <None Include="addition\Layout1new.pdf" />
+    <None Include="addition\Layout1new.psmd" />
+    <None Include="addition\Layout2.pdf" />
+    <None Include="addition\Layout2new+320-470.pdf" />
+    <None Include="addition\Layout2new.psmd" />
+    <None Include="addition\Layout3new.psmd" />
+    <None Include="addition\PrintTest_\app.config" />
+    <None Include="addition\PrintTest_\bin\Debug\PrintTest.exe.config" />
+    <None Include="addition\PrintTest_\bin\Debug\PrintTest.vshost.exe.config" />
+    <None Include="addition\PrintTest_\bin\Debug\PrintTest.vshost.exe.manifest" />
+    <None Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\PrintTest.exe.config" />
+    <None Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\PrintTest.vshost.exe.config" />
+    <None Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\PrintTest.vshost.exe.manifest" />
+    <None Include="addition\PrintTest_\obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="addition\PrintTest_\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="addition\PrintTest_\obj\x86\Debug\PrintTest.csproj.GenerateResource.Cache" />
+    <None Include="addition\PrintTest_\obj\x86\Debug\PrintTest.csprojResolveAssemblyReference.cache" />
+    <None Include="addition\PrintTest_\Properties\Settings.settings" />
+    <None Include="addition\PrintTest_\Web References\WebService\LabelPrint.wsdl" />
+    <None Include="addition\PrintTest_\Web References\WebService\Reference.map" />
+    <None Include="addition\打印测试条码%28请勿外泄%29.xls" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\SrvSysBace\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SrvSysBace\ServiceLogin.wsdl" />
+    <None Include="Web References\WebService\LabelPrint.wsdl" />
+    <None Include="Web References\WebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://10.0.0.15:9001/service/ServiceLogin.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SrvSysBace\</RelPath>
+      <UpdateFromURL>http://10.0.0.15:9001/service/ServiceLogin.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PrintTest_SrvSysBace_Service1</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://192.168.35.18:88/service/LabelPrint.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebService\</RelPath>
+      <UpdateFromURL>http://192.168.35.18:88/service/LabelPrint.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PrintTest_WebService_LabelPrint</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\WebService\LabelPrint.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\SrvSysBace\ServiceLogin.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UILogin\UI.csproj">
+      <Project>{C8E44D91-1398-409E-8CA7-9D9A0831DB28}</Project>
+      <Name>UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ooopic_1457507963.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ooopic_1457507938.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ooopic_1457510447.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ooopic_1457510415.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="addition\PrintTest_\bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="addition\lib\EAN13.dll" />
+    <Content Include="addition\lib\GenCode128.dll" />
+    <Content Include="addition\lib\LiLanzModel.dll" />
+    <Content Include="addition\lib\LLWebService.dll" />
+    <Content Include="addition\lib\log4net.dll" />
+    <Content Include="addition\lib\Newtonsoft.Json.dll" />
+    <Content Include="addition\lib\ThoughtWorks.QRCode.dll" />
+    <Content Include="addition\PrintTest_\bin\Debug\EAN13.dll" />
+    <Content Include="addition\PrintTest_\bin\Debug\GenCode128.dll" />
+    <Content Include="addition\PrintTest_\bin\Debug\LiLanzModel.dll" />
+    <Content Include="addition\PrintTest_\bin\Debug\log4net.dll" />
+    <Content Include="addition\PrintTest_\bin\Debug\Log\Log.txt" />
+    <Content Include="addition\PrintTest_\bin\Debug\PrintTest.exe" />
+    <Content Include="addition\PrintTest_\bin\Debug\PrintTest.pdb" />
+    <Content Include="addition\PrintTest_\bin\Debug\PrintTest.vshost.exe" />
+    <Content Include="addition\PrintTest_\bin\Debug\ThoughtWorks.QRCode.dll" />
+    <Content Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\EAN13.dll" />
+    <Content Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\GenCode128.dll" />
+    <Content Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\LiLanzModel.dll" />
+    <Content Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\log4net.dll" />
+    <Content Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\Log\Log.txt" />
+    <Content Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\PrintTest.exe" />
+    <Content Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\PrintTest.pdb" />
+    <Content Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\PrintTest.vshost.exe" />
+    <Content Include="addition\PrintTest_\bin\合格证标签打印%28增加补打功能%29\ThoughtWorks.QRCode.dll" />
+    <Content Include="addition\PrintTest_\obj\x86\Debug\PrintTest.csproj.FileListAbsolute.txt" />
+    <Content Include="addition\PrintTest_\obj\x86\Debug\PrintTest.exe" />
+    <Content Include="addition\PrintTest_\obj\x86\Debug\PrintTest.pdb" />
+    <Content Include="addition\PrintTest_\obj\x86\Debug\TempPE\Web References.WebService.Reference.cs.dll" />
+    <Content Include="addition\PrintTest_\PrintTest.csproj" />
+    <Content Include="addition\PrintTest_\PrintTest.sln" />
+    <Content Include="addition\PrintTest_\Web References\WebService\LabelPrint.disco" />
+    <Content Include="addition\图标\lllogo6.png" />
+    <Content Include="addition\图标\ooopic_1457505779.ico" />
+    <Content Include="addition\图标\ooopic_1457505812.ico" />
+    <Content Include="addition\图标\ooopic_1457505945.png" />
+    <Content Include="addition\图标\ooopic_1457506038.ico" />
+    <Content Include="addition\图标\ooopic_1457506227.ico" />
+    <Content Include="addition\图标\ooopic_1457506244.png" />
+    <Content Include="addition\图标\ooopic_1457507625.png" />
+    <Content Include="addition\图标\ooopic_1457507723.png" />
+    <Content Include="addition\图标\ooopic_1457507851.png" />
+    <Content Include="addition\图标\ooopic_1457507938.png" />
+    <Content Include="addition\图标\ooopic_1457507963.png" />
+    <Content Include="addition\图标\ooopic_1457508087.png" />
+    <Content Include="addition\图标\ooopic_1457510395.png" />
+    <Content Include="addition\图标\ooopic_1457510415.png" />
+    <Content Include="addition\图标\ooopic_1457510447.png" />
+    <Content Include="addition\图标\ooopic_1457511554.png" />
+    <Content Include="addition\图标\pdf.ico" />
+    <Content Include="addition\图标\search.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

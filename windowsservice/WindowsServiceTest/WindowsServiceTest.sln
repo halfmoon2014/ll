@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceTestUI", "WindowsServiceTestUI\WindowsServiceTestUI.csproj", "{8E9B4DDE-5452-4979-9423-2328FDC3865C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceTest", "WindowsServiceTest\WindowsServiceTest.csproj", "{A69ACC4F-404A-4217-9152-9E3FF2788C87}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.1.204:8080/tfs/web_ss
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WindowsServiceTest\\WindowsServiceTest.csproj
+		SccProjectName1 = WindowsServiceTest
+		SccLocalPath1 = WindowsServiceTest
+		SccProjectUniqueName2 = WindowsServiceTestUI\\WindowsServiceTestUI.csproj
+		SccProjectName2 = WindowsServiceTestUI
+		SccLocalPath2 = WindowsServiceTestUI
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E9B4DDE-5452-4979-9423-2328FDC3865C}.Debug|x86.ActiveCfg = Debug|x86
+		{8E9B4DDE-5452-4979-9423-2328FDC3865C}.Debug|x86.Build.0 = Debug|x86
+		{8E9B4DDE-5452-4979-9423-2328FDC3865C}.Release|x86.ActiveCfg = Release|x86
+		{8E9B4DDE-5452-4979-9423-2328FDC3865C}.Release|x86.Build.0 = Release|x86
+		{A69ACC4F-404A-4217-9152-9E3FF2788C87}.Debug|x86.ActiveCfg = Debug|x86
+		{A69ACC4F-404A-4217-9152-9E3FF2788C87}.Debug|x86.Build.0 = Debug|x86
+		{A69ACC4F-404A-4217-9152-9E3FF2788C87}.Release|x86.ActiveCfg = Release|x86
+		{A69ACC4F-404A-4217-9152-9E3FF2788C87}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

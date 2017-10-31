@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>利郎 LILANZ</title>    
+    <!--JS Start-->
+    <link href="templets/default/css/style.css" rel="stylesheet" type="text/css" />
+    <!--    <link href="templets/default/Content/flexslider.css" rel="stylesheet" type="text/css">-->
+    <!--    <link href="templets/default/Content/jquery.bxslider.css" rel="stylesheet" type="text/css">-->
+    <script src="templets/default/Scripts/jquery-1.4.4.min.js" type="text/javascript"></script>
+    <!--<script src="templets/default/Scripts/common.js" type="text/javascript"></script>
+    <script src="templets/default/Scripts/slides.jquery.js" type="text/javascript"></script>
+    <script src="templets/default/Scripts/jquery.flexslider-min.js" type="text/javascript"></script>
+    <script src="templets/default/Scripts/jquery.bxslider.min.js" type="text/javascript"></script>-->
+    <script type="text/javascript">
+        $(function () {
+            $(".login").click(function () {
+                var infoObj = new Object();
+                infoObj.username = $.trim($("#username").attr("value"));
+                infoObj.password = $.trim($("#password").attr("value"));
+                infoObj.checkpassword = $.trim($("#checkpassword").attr("value"));
+                infoObj.realname = $.trim($("#realname").attr("value"));
+                infoObj.product = $.trim($("#product").attr("value"));
+                infoObj.address = $.trim($("#address").attr("value"));
+                infoObj.phone = $.trim($("#phone").attr("value"));
+                infoObj.email = $.trim($("#email").attr("value"));
+                if (check(infoObj)) {
+                    $(".login").attr("disabled", true)
+                    $.ajax({ type: 'post',
+                        url: 'supplier.ashx',
+                        contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+                        data: { requestType:'register', username: infoObj.username, password: infoObj.password,
+                            realname: infoObj.realname, product: infoObj.product,
+                            address: infoObj.address, phone: infoObj.phone,
+                                 email: mySysDate(infoObj.email) },
+                        error: function (e) {
+                            $(".login").removeAttr("disabled");
+                            console.log(e);
+                        },
+                        success: function (data) {
+                            $(".login").removeAttr("disabled");
+                            var myData = eval("(" + data.replace(/\\/g, "/") + ")");
+                            //                            if (window.DOMParser) {
+                            //                                myData = eval("(" + data.documentElement.textContent.replace(/\\/g, "/") + ")");
+                            //                            } else {
+                            //                                myData = eval("(" + data.text.replace(/\\/g, "/") + ")");
+                            //                            }
+                            if (myData.r == "true") {
+                                alert("注册成功")
+                            } else {
+                                alert(myData.msg);
+                            }
+                        }
+                    })
+                }
+            });
+
+        });
+        //编码
+        function mySysDate(str) {
+            return encodeURIComponent(str);
+        }
+        //验证
+        function check(infoObj) {
+            if (infoObj.username.length == 0) {
+                alert("请输入登录名");
+                return false;
+            }
+            if (infoObj.password.length < 6) {
+                alert("请输入至少6位的密码");
+                return false;
+            }
+            if (infoObj.password != infoObj.checkpassword) {
+                alert("两次输入密码不一致");
+                return false;
+            }
+            if (infoObj.realname.length == 0) {
+                alert("请输入联系人");
+                return false;
+            }
+            if (infoObj.product.length == 0) {
+                alert("请输入供应产品");
+                return false;
+            }
+            if (infoObj.address.length == 0) {
+                alert("请输入地址");
+                return false;
+            }
+            if (infoObj.phone.length == 0) {
+                alert("请输电话号码");
+                return false;
+            }
+            if (!isEmail(infoObj.email)) {
+                alert("请输入正确的E-Mail地址");
+                return false;
+            }
+            return true;
+        }
+        function isEmail(strEmail) {
+            if (strEmail.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) != -1)
+                return true;
+            else
+                return false;
+        }       
+    </script>
+    <!--JS End-->
+</head>
+<body>
+    <div class="all">
+        <!--Header Start-->
+        <!--Header End-->
+        <div class="content">
+            <div class="Investor">
+                <div class="slash">
+                    <img src="templets/default/images/supplier/slash.png"></div>
+                <div class="register-content clearfix">
+                    <div class="title">
+                        <span class="title-font">REGISTERATION</span> <span class="title-font-cn">用户注册</span>
+                    </div>
+                    <div class="register-main">
+                        <form class="register-form">
+                        <label class="supp-label">
+                            <span>供应商名称(登录名)：</span>
+                            <input id="username" type="text">
+                        </label>
+                        <label class="supp-label">
+                            <span>密码：</span>
+                            <input id="password" type="password" >
+                        </label>
+                        <label class="supp-label">
+                            <span>确认密码：</span>
+                            <input id="checkpassword" type="password">
+                        </label>
+                        <label class="supp-label">
+                            <span>联系人：</span>
+                            <input id="realname" type="text">
+                        </label>
+                        <label class="supp-label">
+                            <span>供应产品：</span>
+                            <input id="product" type="text">
+                        </label>
+                        <label class="supp-label">
+                            <span>地址：</span>
+                            <input id="address" type="text">
+                        </label>
+                        <label class="supp-label">
+                            <span>联系电话：</span>
+                            <input id="phone" type="text">
+                        </label>
+                        <label class="supp-label">
+                            <span>邮箱：</span>
+                            <input id="email" type="text">
+                        </label>
+                        <div class="submit clearfix">
+                            <input type="button" class="login" value="Log in">
+                            <a href="javascript:history.go(-1);">Back</a>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        ﻿<!--Footer Start-->
+        <!--Footer End-->
+    </div>
+</body>
+</html>

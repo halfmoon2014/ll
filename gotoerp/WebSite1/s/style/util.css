@@ -1,0 +1,565 @@
+﻿
+* {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body {
+    background: none repeat scroll center 0 #000;
+    color: #c2c2c2;
+    font-family: Arial,"宋体",Verdana,SunSans-Regular,sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+}
+.wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+img {
+    border: 0 none;
+    display: block;
+}
+h1, h2, h3, h4, h5 {
+    font-size: 14px;
+}
+:focus {
+    outline: medium none;
+}
+.clear {
+    clear: both;
+}
+.left {
+    display: inline;
+    float: left;
+}
+.right {
+    display: inline;
+    float: right;
+}
+a {
+    color: #999;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a.gray {
+    color: #666;
+    text-decoration: none;
+}
+a.gray:hover {
+    text-decoration: underline;
+}
+a.gray_ccc {
+    color: #ccc;
+    text-decoration: none;
+}
+a.gray_ccc:hover {
+    text-decoration: underline;
+}
+a.white {
+    color: #fff;
+    text-decoration: none;
+}
+a.white:hover {
+    text-decoration: underline;
+}
+.lilanz_top {
+    margin: 10px auto 0;
+    width: 960px;
+}
+.banben {
+    color: #999;
+    font-size: 12px;
+    margin: 0 0 15px;
+    position: relative;
+    text-align: right;
+}
+.newpro {
+    background-image: url("../images/newpro.gif");
+    background-repeat: no-repeat;
+    height: 12px;
+    overflow: hidden;
+    position: absolute;
+    right: -15px;
+    top: -8px;
+    width: 22px;
+}
+.banben a {
+    color: #666;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.banben a:hover {
+    color: #999;
+    text-decoration: none;
+}
+.lilanz_logo {
+    background: url("../images/logo.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 26px;
+    text-indent: -5000px;
+    width: 209px;
+}
+.lilanz_tilte {
+    display: inline;
+    height: 44px;
+    margin-top: 10px;
+    width: 618px;
+}
+.lilanz_tilte li {
+    float: left;
+}
+.lilanz_tilte a {
+    background: url("../images/title.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    height: 22px;
+    text-indent: -5000px;
+}
+.lilanz_tilte .lilanz_home a {
+    background-position: 0 0;
+    width: 50px;
+}
+.lilanz_tilte .lilanz_home a:hover {
+    background-position: 0 -22px;
+}
+.lilanz_tilte .lilanz_year a {
+    background-position: -50px 0;
+    width: 80px;
+}
+.lilanz_tilte .lilanz_year a:hover {
+    background-position: -50px -22px;
+}
+.lilanz_tilte .lilanz_relation a {
+    background-position: -130px 0;
+    width: 91px;
+}
+.lilanz_tilte .lilanz_relation a:hover {
+    background-position: -130px -22px;
+}
+.lilanz_tilte .lilanz_regiment a {
+    background-position: -221px 0;
+    width: 78px;
+}
+.lilanz_tilte .lilanz_regiment a:hover {
+    background-position: -221px -22px;
+}
+.lilanz_tilte .lilanz_news a {
+    background-position: -549px 0;
+    width: 80px;
+}
+.lilanz_tilte .lilanz_news a:hover {
+    background-position: -549px -22px;
+}
+.lilanz_tilte .lilanz_strategy a {
+    background-position: -300px 0;
+    width: 78px;
+}
+.lilanz_tilte .lilanz_strategy a:hover {
+    background-position: -300px -22px;
+}
+.lilanz_tilte .lilanz_manpower a {
+    background-position: -380px 0;
+    width: 78px;
+}
+.lilanz_tilte .lilanz_manpower a:hover {
+    background-position: -380px -22px;
+}
+.lilanz_tilte .lilanz_connection a {
+    background-position: -458px 0;
+    width: 78px;
+}
+.lilanz_tilte .lilanz_connection a:hover {
+    background-position: -458px -22px;
+}
+.en_lilanz_top {
+    margin: 10px auto 0;
+    width: 960px;
+}
+.en_banben {
+    color: #666;
+    font-size: 12px;
+    margin: 0 0 15px;
+    text-align: right;
+}
+.en_banben a {
+    color: #666;
+    margin: 0 7px;
+    text-decoration: none;
+}
+.en_banben a:hover {
+    color: #999;
+    text-decoration: none;
+}
+.en_lilanz_logo {
+    background: url("../images/en_logo.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 26px;
+    text-indent: -5000px;
+    width: 209px;
+}
+.en_lilanz_tilte {
+    display: inline;
+    height: 44px;
+    margin-top: 10px;
+    width: 590px;
+}
+.en_lilanz_tilte li {
+    float: left;
+}
+.en_lilanz_tilte a {
+    background: url("../images/en_title.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    height: 22px;
+    text-indent: -5000px;
+}
+.en_lilanz_tilte .lilanz_home a {
+    background-position: 0 0;
+    width: 65px;
+}
+.en_lilanz_tilte .lilanz_home a:hover {
+    background-position: 0 -21px;
+}
+.en_lilanz_tilte .lilanz_year a {
+    background-position: -60px 0;
+    width: 71px;
+}
+.en_lilanz_tilte .lilanz_year a:hover {
+    background-position: -60px -21px;
+}
+.en_lilanz_tilte .lilanz_relation a {
+    background-position: -134px 0;
+    width: 151px;
+}
+.en_lilanz_tilte .lilanz_relation a:hover {
+    background-position: -134px -21px;
+}
+.en_lilanz_tilte .lilanz_regiment a {
+    background-position: -286px 0;
+    width: 109px;
+}
+.en_lilanz_tilte .lilanz_regiment a:hover {
+    background-position: -286px -21px;
+}
+.en_lilanz_tilte .lilanz_news a {
+    background-position: -593px 0;
+    width: 64px;
+}
+.en_lilanz_tilte .lilanz_news a:hover {
+    background-position: -593px -21px;
+}
+.en_lilanz_tilte .lilanz_strategy a {
+    background-position: -396px 0;
+    width: 110px;
+}
+.en_lilanz_tilte .lilanz_strategy a:hover {
+    background-position: -396px -21px;
+}
+.en_lilanz_tilte .lilanz_manpower a {
+    background-position: -380px 0;
+    width: 78px;
+}
+.en_lilanz_tilte .lilanz_manpower a:hover {
+    background-position: -380px -21px;
+}
+.en_lilanz_tilte .lilanz_connection a {
+    background-position: -506px 0;
+    width: 84px;
+}
+.en_lilanz_tilte .lilanz_connection a:hover {
+    background-position: -506px -21px;
+}
+.century_img {
+    margin: 0 auto;
+    width: 960px;
+}
+.century_img img {
+    height: 180px;
+    width: 960px;
+}
+.lilanz_title {
+    color: #666;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    width: 960px;
+}
+.util_main {
+    background: none repeat scroll 0 0 #0d0d0d;
+    border: 1px solid #1a1a1a;
+    margin: 0 auto 30px;
+    overflow: hidden;
+    width: 958px;
+}
+.main_list {
+    border-bottom: 1px solid #1f1f1f;
+    margin: 20px 0 50px 15px;
+    width: 190px;
+}
+.main_list ul li {
+    border-top: 1px solid #1f1f1f;
+}
+.main_list ul li a, .main_list ul li a:hover {
+    display: block;
+    font-size: 12px;
+    height: auto;
+    line-height: 31px;
+    padding-left: 23px;
+}
+.main_list ul li a {
+    background: url("../images/century_list_out.gif") no-repeat scroll 10px center rgba(0, 0, 0, 0);
+    color: #999;
+}
+.main_list ul li a:hover {
+    background: url("../images/century_list_on.gif") no-repeat scroll 10px center #161616;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main_list ul li.facing a {
+    background: url("../images/century_list_on.gif") no-repeat scroll 10px center #161616;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main_list ol li {
+    border-top: 1px solid #1f1f1f;
+    display: block;
+    font-size: 12px;
+    height: 31px;
+    line-height: 31px;
+    text-indent: 30px;
+    width: 190px;
+}
+.main_list ol li a {
+    background: url("../images/honor_title_bg.gif") no-repeat scroll 40px center rgba(0, 0, 0, 0);
+    color: #999;
+}
+.main_list ol li a:hover {
+    background: url("../images/honor_title_bg.gif") no-repeat scroll 40px center rgba(0, 0, 0, 0);
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.lilanz_main_title {
+    background: url("../../s/images/lilanz_title.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #3a3a3a;
+    color: #999;
+    height: 24px;
+    line-height: 16px;
+    padding-left: 16px;
+}
+.lilanz_title_h1 {
+    background: url("../../s/images/lilanz_title_h1.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #3a3a3a;
+    color: #999;
+    height: 24px;
+    line-height: 16px;
+    padding-left: 16px;
+}
+.download {
+    color: #999;
+    margin: 15px 0;
+    text-align: center;
+    width: 700px;
+}
+.download a {
+    text-decoration: underline;
+}
+.lilanz_foot {
+    background: url("../images/lilanz_foot_bg.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 960px;
+}
+.lilanz_foot p {
+    float: left;
+    margin-left: 5px;
+}
+.lilanz_foot span {
+    float: right;
+}
+.show_js {
+    margin: 25px auto;
+    width: 615px;
+}
+.show_js_left {
+    background: url("../images/show_left.gif") no-repeat scroll left center rgba(0, 0, 0, 0);
+    height: 74px;
+    margin-right: 20px;
+    text-indent: -5000px;
+    width: 20px;
+}
+.show_js_left span, .show_js_right span {
+    cursor: pointer;
+    display: block;
+    height: 74px;
+    width: 20px;
+}
+.show_js_middle img {
+    border: 1px solid #616161;
+    display: block;
+    margin: 20px auto 0;
+    width: 487px;
+}
+.show_js_right {
+    background: url("../images/show_right.gif") no-repeat scroll left center rgba(0, 0, 0, 0);
+    margin-left: 20px;
+    text-indent: -5000px;
+}
+.show_list {
+    margin-left: 25px;
+    overflow: hidden;
+    padding-top: 25px;
+    width: 610px;
+}
+.show_ul {
+    overflow: hidden;
+    width: 490px;
+}
+.show_list ul {
+    width: 650px;
+}
+.show_list ul li {
+    float: left;
+    margin-right: 20px;
+}
+.show_list ul li.alpha_li {
+    opacity: 0.3;
+}
+.show_list ul li img {
+    border: 1px solid #616161;
+    display: block;
+    height: 74px;
+}
+.finance_list a.facing {
+    background: none repeat scroll 0 0 #ccc;
+    color: #000;
+    margin: 0 3px;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+.go_page input {
+    height: 12px;
+    line-height: 12px;
+    margin: 0 5px;
+}
+.go_page button {
+    background: none repeat scroll 0 0 #292929;
+    border: 0 none;
+    color: #fff;
+    padding: 0 5px;
+}
+.century_right {
+    margin: 20px 15px 0 0;
+    width: 715px;
+}
+.century_right p {
+    color: #666;
+    margin: 15px 0;
+    text-indent: 2em;
+}
+.century_right img {
+    float: left;
+    margin: 20px 20px 10px 10px;
+}
+.en_century_right {
+    margin: 20px 15px 0 0;
+    width: 715px;
+}
+.en_century_right p {
+    color: #666;
+    margin: 15px 10px;
+}
+.en_century_right img {
+    border: 1px solid #666;
+    float: left;
+    height: 171px;
+    margin: 20px 20px 10px 10px;
+    width: 269px;
+}
+.dingyue {
+    clear: both;
+    margin: 0 auto;
+    width: 960px;
+}
+.dingyue_wbk {
+    background-color: #111;
+    border: 1px solid #333;
+    color: #666;
+    float: right;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0 2px;
+    width: 150px;
+}
+.dingyue_btn {
+    background-image: url("http://www.lilanz.com/images/dingyuebtn.jpg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: right;
+    height: 20px;
+    margin-left: 5px;
+    width: 60px;
+}
+.iw_poi_title {
+    color: #cc5522;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 13px;
+    white-space: nowrap;
+}
+.iw_poi_content {
+    font: 12px arial,sans-serif;
+    overflow: visible;
+    padding-top: 4px;
+    word-wrap: break-word;
+}
+.edmkuang {
+    height: auto;
+    margin: 20px auto;
+    overflow: visible;
+    width: 960px;
+}
+.edmtitle {
+    background-color: #3a3a3a;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    width: 100%;
+}
+.edmtable {
+    margin: 20px auto;
+}
+.edmtable td {
+}
+.edmleft {
+    color: #999999;
+    text-align: right;
+}
+.edmtablecheckbox {
+}
+.edmtablewbk {
+    background: none repeat scroll 0 0 #343434;
+    border: 1px solid #444;
+    color: #999;
+    font-size: 12px;
+    height: 100px;
+    line-height: 24px;
+    margin: 5px 0;
+    padding: 0 0 0 10px;
+    width: 410px;
+}
+.gzwb {
+    background-image: url("../../images/gzwb.jpg");
+    background-position: left 50%;
+    background-repeat: no-repeat;
+    height: 16px;
+    padding-left: 22px;
+}

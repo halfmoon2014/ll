@@ -1,0 +1,25 @@
+﻿
+@charset "utf-8";
+.pages {
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+.pages a {
+    color: #666;
+    height: 14px;
+    margin: 0 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 16px;
+}
+.pages .currut {
+    background-color: #ccc;
+    color: #000;
+    height: 14px;
+    line-height: 14px;
+    margin: 0 5px;
+    padding: 0 3px;
+    text-align: center;
+    width: 16px;
+}

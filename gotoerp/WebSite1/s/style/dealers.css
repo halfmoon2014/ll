@@ -1,0 +1,41 @@
+﻿
+.dealers_right {
+    margin: 20px 0 0 25px;
+    overflow: hidden;
+    padding-bottom: 50px;
+    width: 715px;
+}
+.dealers_right_left {
+    width: 240px;
+}
+.dealers_right table {
+    color: #ccc;
+    margin: 25px 0 25px 15px;
+    width: 240px;
+}
+.dealers_right table td {
+    height: 30px;
+    line-height: 30px;
+}
+.dealers_right table .password_bg {
+    background: url("../images/store_bg.gif") repeat-x scroll left bottom rgba(0, 0, 0, 0);
+    height: 55px;
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+.dealers_right ul {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 240px;
+}
+.dealers_right ul li {
+    float: right;
+}
+.dealers_right ul li .password_button {
+    margin-left: 20px;
+}
+.dealers_right_right {
+    color: #999;
+    margin: 25px 20px 0 0;
+    width: 350px;
+}

@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    
+    <link href="s/style/util.css" rel="stylesheet" type="text/css" />
+    <link href="s/style/operation.css" rel="stylesheet" type="text/css" />
+    <link href="s/style/dealers.css" rel="stylesheet" type="text/css" />
+    <link href="s/style/page.css" rel="stylesheet" type="text/css" />
+    <style>
+        .urllink
+        {
+            margin: 50px auto;
+            text-align: center;
+        }
+        .urllink a
+        {
+            background-color: #444;
+            color: #ccc;
+            display: block;
+            font-size: 16px;
+            font-weight: bold;
+            height: 30px;
+            line-height: 30px;
+            margin: 0 auto;
+            text-align: center;
+            text-decoration: none;
+            width: 260px;
+        }
+        .urllink a:hover
+        {
+            background-color: #666;
+        }
+        .outlink
+        {
+        }
+        .outlink a
+        {
+            color: #ccc;
+            display: block;
+            font-size: 12px;
+            line-height: 22px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <script language="javascript">
+        function myform_submit() {
+
+            if (document.getElementById("real_name").value == "") {
+                alert("请输入联系人！");
+                document.getElementById("real_name").focus();
+                return false;
+            }
+            if (document.getElementById("product").value == "") {
+                alert("请输入供应产品！");
+                document.getElementById("product").focus();
+                return false;
+            }
+            if (document.getElementById("address").value == "") {
+                alert("请输入地址！");
+                document.getElementById("address").focus();
+                return false;
+            }
+
+            /*var emailstr = document.getElementById("email");
+            var myreg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+
+            if(!myreg.test(emailstr.value))
+            {
+            alert("请输入有效的E_mail！");
+            emailstr.focus();
+            return false;
+            }
+            */
+
+            if (document.getElementById("phone").value == "") {
+                alert("请输入联系电话！");
+                document.getElementById("phone").focus();
+                return false;
+            }
+
+        }
+</script>
+	
+    <div class="wrapper">
+        <div class="century_img"><img src="s/pics/strategy_03.gif"></div>
+	</div>
+	<div class="wrapper">
+
+		<div class="lilanz_title">首页 &gt; 供应商专区
+		</div>        
+        <div class="util_main">
+            <div class="main_list left">
+                <ul>
+                    <li><a href="loginok.php">ERP入口</a></li>
+                    <li><a href="sup_info_edit.php">修改资料</a></li>
+                    <li><a href="password_edit.php">修改密码</a></li>
+                    <li><a href="?act=unlogin">退出登陆</a></li>
+                </ul>
+            </div>		
+
+            <div class="operation_right left">
+                <h2 class="lilanz_main_title">
+                    ERP入口</h2>
+                ok<div class="urllink">
+                    您的IP地址为：117.28.240.74<a href="http://webt.lilang.com:9001/gotoErp.aspx?guid=17E83929-4E8E-A23B-26A9-F3BA2EE78684">点击进入供应商申请专区(外网)</a>
+                </div>
+            </div>
+        </div>        
+		
+	</div>      
+    
+
+</body>
+</html>
