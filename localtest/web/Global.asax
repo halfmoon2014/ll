@@ -5,8 +5,8 @@
     {
         //在应用程序启动时运行的代码
         //在新会话启动时运行的代码
-        workSpace.work myWork = new workSpace.work();
-        
+        //workSpace.work myWork = new workSpace.work();
+
         //System.Threading.Thread thread = new System.Threading.Thread(myWork.doworkempty);
         //thread.Start(a);
 
@@ -16,15 +16,32 @@
         //});
         //t.IsBackground = true;
         //t.Start();         
-        
+
         //while (true)
         //{
         //    thread.Start();
         //}
 
-        
+
     }
-   
+    void Application_BeginRequest(object sender, EventArgs e)
+    {
+        HttpContext context = ((HttpApplication)sender).Context;
+
+        string requestPath = context.Request.Path.ToLower();
+        if (requestPath.Contains("multiplepage.aspx"))
+        {
+
+        }
+    }
+
+    void Application_endrequest(object sender, EventArgs e)
+    {
+         HttpContext context = ((HttpApplication)sender).Context;
+
+        string requestPath = context.Request.Path.ToLower();
+    }
+
     void Application_End(object sender, EventArgs e)
     {
         //在应用程序关闭时运行的代码
@@ -51,5 +68,5 @@
         //设置为 StateServer 或 SQLServer，则不会引发该事件。
 
     }
-       
+
 </script>
