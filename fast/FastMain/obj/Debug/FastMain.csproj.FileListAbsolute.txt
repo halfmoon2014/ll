@@ -1,0 +1,8 @@
+E:\gitrepos\ll\fast\FastMain\bin\Debug\FastMain.exe
+E:\gitrepos\ll\fast\FastMain\bin\Debug\FastMain.pdb
+E:\gitrepos\ll\fast\FastMain\obj\Debug\FastMain.csprojResolveAssemblyReference.cache
+E:\gitrepos\ll\fast\FastMain\obj\Debug\FastMain.Properties.Resources.resources
+E:\gitrepos\ll\fast\FastMain\obj\Debug\FastMain.csproj.GenerateResource.Cache
+E:\gitrepos\ll\fast\FastMain\obj\Debug\FastMain.exe
+E:\gitrepos\ll\fast\FastMain\obj\Debug\FastMain.pdb
+E:\gitrepos\ll\fast\FastMain\obj\Debug\FastMain.Detail.resources
