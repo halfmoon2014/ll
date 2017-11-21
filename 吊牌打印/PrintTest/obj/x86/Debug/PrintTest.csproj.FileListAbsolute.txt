@@ -1,0 +1,10 @@
+E:\gitrepos\ll\吊牌打印\PrintTest\obj\x86\Debug\PrintTest.csprojResolveAssemblyReference.cache
+E:\gitrepos\ll\吊牌打印\PrintTest\obj\x86\Debug\PrintTest.AboutBox.resources
+E:\gitrepos\ll\吊牌打印\PrintTest\obj\x86\Debug\PrintTest.Form1.resources
+E:\gitrepos\ll\吊牌打印\PrintTest\obj\x86\Debug\PrintTest.FrmPrintSingle.resources
+E:\gitrepos\ll\吊牌打印\PrintTest\obj\x86\Debug\PrintTest.FrmSet.resources
+E:\gitrepos\ll\吊牌打印\PrintTest\obj\x86\Debug\PrintTest.FromLogin.resources
+E:\gitrepos\ll\吊牌打印\PrintTest\obj\x86\Debug\PrintTest.addition.PrintTest_.Properties.Resources.resources
+E:\gitrepos\ll\吊牌打印\PrintTest\obj\x86\Debug\PrintTest.Properties.Resources.resources
+E:\gitrepos\ll\吊牌打印\PrintTest\obj\x86\Debug\PrintTest.csproj.GenerateResource.Cache
+E:\gitrepos\ll\吊牌打印\PrintTest\bin\Debug\PrintTest.exe.config

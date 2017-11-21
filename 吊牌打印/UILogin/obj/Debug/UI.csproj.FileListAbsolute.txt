@@ -1,0 +1,9 @@
+E:\gitrepos\ll\吊牌打印\UILogin\bin\Debug\UILogin.dll.config
+E:\gitrepos\ll\吊牌打印\UILogin\bin\Debug\UILogin.dll
+E:\gitrepos\ll\吊牌打印\UILogin\bin\Debug\UILogin.pdb
+E:\gitrepos\ll\吊牌打印\UILogin\obj\Debug\UILogin.Login.resources
+E:\gitrepos\ll\吊牌打印\UILogin\obj\Debug\UILogin.Properties.Resources.resources
+E:\gitrepos\ll\吊牌打印\UILogin\obj\Debug\UI.csproj.GenerateResource.Cache
+E:\gitrepos\ll\吊牌打印\UILogin\obj\Debug\UILogin.dll
+E:\gitrepos\ll\吊牌打印\UILogin\obj\Debug\UILogin.pdb
+E:\gitrepos\ll\吊牌打印\UILogin\obj\Debug\UI.csprojResolveAssemblyReference.cache
